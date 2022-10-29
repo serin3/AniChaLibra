@@ -1,0 +1,14 @@
+{
+    "id": {
+        "char-name": " ", 
+        "char-age": " ",
+        "char-gender": "Female | Male", 
+        "char-race": "Human | Soul | Goblin | Devil",
+        "char-status": "Alive | Dead | Unknown",
+        "char-personality": " ",
+        "char-image": " ",
+        "ani-name": " ",
+        "ani-quote": " ",
+        "ani-role": "Main | Supporting"
+    }
+}
