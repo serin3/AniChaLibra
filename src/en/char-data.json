@@ -2,7 +2,7 @@
     "1": {
         "char-name": "Sakata Gintoki",
         "char-age": "29",
-        "char-birth": "",
+        "char-birth": "October-10",
         "char-gender": "Male",
         "char-race": "Human",
         "char-status": "Alive",
@@ -15,7 +15,7 @@
     "2": {
         "char-name": "Sora Kasugano",
         "char-age": "16",
-        "char-birth": "",
+        "char-birth": "February-5",
         "char-gender": "Female",
         "char-race": "Human",
         "char-status": "Alive",
@@ -28,7 +28,7 @@
     "3": {
         "char-name": "Illyasviel von Einzbern",
         "char-age": "18",
-        "char-birth": "",
+        "char-birth": "November-20",
         "char-gender": "Female",
         "char-race": "Human",
         "char-status": "Alive",
@@ -41,7 +41,7 @@
     "4": {
         "char-name": "Yuuko Aioi",
         "char-age": "16",
-        "char-birth": "",
+        "char-birth": "May-26",
         "char-gender": "Female",
         "char-race": "Human",
         "char-status": "Alive",
@@ -54,7 +54,7 @@
     "5": {
         "char-name": "Mikoto Misaka",
         "char-age": "21",
-        "char-birth": "",
+        "char-birth": "May-2",
         "char-gender": "Female",
         "char-race": "Human",
         "char-status": "Alive",
@@ -67,7 +67,7 @@
     "6": {
         "char-name": "Rukia Kuchiki",
         "char-age": "Unknown",
-        "char-birth": "",
+        "char-birth": "January-14",
         "char-gender": "Female",
         "char-race": "Soul",
         "char-status": "Alive",
