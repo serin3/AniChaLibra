@@ -2,6 +2,7 @@
     "id": {
         "char-name": " ", 
         "char-age": " ",
+        "char-birth": " ",
         "char-gender": "Female | Male", 
         "char-race": "Human | Soul | Goblin | Devil",
         "char-status": "Alive | Dead | Unknown",
