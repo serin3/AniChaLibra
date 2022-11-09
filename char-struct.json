@@ -1,15 +1,19 @@
 {
-    "id": {
-        "char-name": " ", 
-        "char-age": " ",
-        "char-birth": " ",
-        "char-gender": "Female | Male", 
-        "char-race": "Human | Soul | Goblin | Devil",
-        "char-status": "Alive | Dead | Unknown",
-        "char-personality": " ",
-        "char-image": " ",
-        "ani-name": " ",
-        "ani-quote": " ",
-        "ani-role": "Main | Supporting"
+    "character": {
+        "name": " ", 
+        "age": " ",
+        "birth": " ",
+        "gender": "Female | Male", 
+        "race": "Human | Soul | Goblin | Devil",
+        "status": "Alive | Dead | Unknown",
+        "appearances": "Chapter ",
+        "married": "yes | no",
+        "personality": " ",
+        "image": " "
+    },
+    "anime": {
+        "name": "",
+        "quote": "",
+        "role": "Main | Supporting"
     }
 }

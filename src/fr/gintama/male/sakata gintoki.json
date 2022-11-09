@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "Sakata Gintoki", 
+        "age": "29",
+        "birth": "October-10",
+        "gender": "Homme", 
+        "race": "Humain",
+        "status": "Vivant",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "Gintoki est extrêmement paresseux. On le voit souvent porter une expression stupide sur son visage et passe ses journées à se prélasser à lire Shounen Jump tout en donnant des conseils sages et sages à ses jeunes employés, même s'il ne sait pas vraiment de quoi il parle la plupart du temps",
+        "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035886808023711814/Sakata_Gintoki.png"
+    },
+    "anime": {
+        "name": "Gintama",
+        "quote": "Avant l'aube, la nuit est la plus sombre juste avant l'aube. Mais gardez les yeux ouverts, gardez-les ouverts quelle que soit la noirceur de la nuit à venir. Si tu détournes tes yeux de l'obscurité, tu seras aveugle aux rayons d'un nouveau jour",
+        "role": "Main"
+    }
+}

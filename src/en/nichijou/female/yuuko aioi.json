@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "Yuuko Aioi", 
+        "age": "16",
+        "birth": "May-26",
+        "gender": "Female", 
+        "race": "Human",
+        "status": "Alive",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "Yuuko loves making jokes to make other people laugh, but often fails or takes a joke too far. Yuuko is usually undeterred by her failures to crack jokes and is creative with coming up with new jokes or humorous reactions. She tends to be clumsy and takes a simple-minded approach to life",
+        "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035892564680769576/Yuuko_Aioi.png"
+    },
+    "anime": {
+        "name": "Nichijou",
+        "quote": "Super Ultra Great Delicious Wonderful Bad",
+        "role": "Main"
+    }
+}

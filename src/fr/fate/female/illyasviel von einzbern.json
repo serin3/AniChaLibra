@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "Sora Kasugano", 
+        "age": "18",
+        "birth": "November-20",
+        "gender": "Femelle", 
+        "race": "Humain",
+        "status": "Vivant",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "Illya est joyeuse et extravertie, optimiste et affiche généralement une attitude positive. Possédant un comportement amical, il est facile de lui parler et a tendance à être enjoué et espiègle. Au fond d'elle-même, cependant, Illya est seule car elle n'a pas d'amis de son âge avec qui jouer et est souvent coincée à l'intérieur du château d'Einzbern. Elle demande à ceux avec qui elle se sent à l'aise de l'appeler 'Illya'",
+        "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035888968803307550/Illyasviel_von_Einzbern.png"
+    },
+    "anime": {
+        "name": "Fate/Zero",
+        "quote": "C'est ta dernière chance, Onii-chan. Je vais vous demander une fois de plus. Shirou... sois à moi",
+        "role": "Supporting"
+    }
+}

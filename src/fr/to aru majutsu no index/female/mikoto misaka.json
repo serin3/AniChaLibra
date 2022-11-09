@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "Mikoto Misaka", 
+        "age": "21",
+        "birth": "May-2",
+        "gender": "Femelle", 
+        "race": "Humain",
+        "status": "Vivant",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "Pour la plupart des gens, elle est considérée comme une 'femme convenable', mais en réalité, elle est colérique, fière et a une attitude inappropriée avec quelques légères tendances et insécurités de garçon manqué - un fait que peu de gens connaissent. Malgré cela, elle est généralement amicale et facile à vivre",
+        "image": "https://cdn.discordapp.com/attachments/954795554389520465/955205720784117780/Mikoto_Misaka.jpg"
+    },
+    "anime": {
+        "name": "To Aru Majutsu no Index",
+        "quote": "En dépendant des autres et en les laissant dépendre de vous, les gens peuvent dépasser ce qu'ils peuvent faire en tant qu'individus",
+        "role": "Main"
+    }
+}

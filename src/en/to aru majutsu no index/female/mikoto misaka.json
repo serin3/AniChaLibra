@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "Mikoto Misaka", 
+        "age": "21",
+        "birth": "May-2",
+        "gender": "Female", 
+        "race": "Human",
+        "status": "Alive",
+        "appearances": "Chapter ",
+        "married": "no",
+        "personality": "To most people, she is considered a 'proper lady' , but in reality, she's short-tempered, prideful, and has an improper attitude with some slight tomboyish tendencies and insecurities- a fact few people know of. Despite this, she is generally friendly and easygoing",
+        "image": "https://cdn.discordapp.com/attachments/954795554389520465/955205720784117780/Mikoto_Misaka.jpg"
+    },
+    "anime": {
+        "name": "To Aru Majutsu no Index",
+        "quote": "By depending on others and letting them depend on you, people can exceed what they can do as individuals",
+        "role": "Main | Supporting"
+    }
+}

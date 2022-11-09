@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "kagura", 
+        "age": "20",
+        "birth": "Nov-3",
+        "gender": "Femelle", 
+        "race": "Humain",
+        "status": "Vivant",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "kagura peut être décrite comme naïve à une faute comme on le voit dans son introduction où elle a été trompée par un gang en lui faisant croire qu'elle les protégeait lorsqu'elle a combattu leur gang rival. elle refuse d'accepter son héritage en tant que yato et veut juste vivre comme une fille normale",
+        "image": "https://cdn.discordapp.com/attachments/834087472026615889/1039973510476480572/kagura.png"
+    },
+    "anime": {
+        "name": "Gintama",
+        "quote": "j'aime me battre, c'est l'instinct yato, je ne peux pas aller contre lui, c'est pourquoi je me battrai avec mon sang yato, je vais me battre pour changer",
+        "role": "Main"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "character" : {
+        "name": "Sakata Gintoki",
+        "age": "29",
+        "birth": "October-10",
+        "gender": "Male",
+        "race": "Human",
+        "status": "Alive",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "Gintoki is extremely lazy. He is often seen wearing a dumb expression on his face and spends his days lounging around reading Shounen Jump whilst imparting wise and sage-like advice to his younger employees, even though he doesn't actually know what he's talking about most of the time",
+        "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035886808023711814/Sakata_Gintoki.png"
+    },
+    "anime" : {
+        "name": "Gintama",
+        "quote": "Before dawn, the night is darkest just before dawn. But keep your eyes open, keep them open no matter how dark the night ahead may be. If you avert your eyes from the dark, you'll be blind to the rays of a new day",
+        "role": "Main"
+    }
+}
