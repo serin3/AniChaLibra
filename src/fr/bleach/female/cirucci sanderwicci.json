@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "Cirucci Sanderwicci", 
+        "age": "Unknown",
+        "birth": "February-27",
+        "gender": "Femelle", 
+        "race": "Arrancar",
+        "status": "Vivant",
+        "appearances": "Chapter 251",
+        "married": "no",
+        "personality": "Cirucci est plutôt grossier, arrogant et direct. Elle se moque constamment de ses adversaires et est légèrement sadique. Cependant, elle n’a aucun scrupule à souligner quand d’autres ont des traits similaires.",
+        "image": "https://cdn.discordapp.com/attachments/834087472026615889/1040226906177544212/cirucci_sanderwicci.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "Would you mind not attacking me while I'm in the middle of saying something? Jeez, you have no manners, do you, four eyes?!",
+        "role": "Supporting"
+    }
+}
