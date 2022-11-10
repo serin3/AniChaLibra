@@ -1,0 +1,19 @@
+{
+    "character" : {
+        "name": "ichigo kurosaki",
+        "age": "29",
+        "birth": "Juillet-15",
+        "gender": "Homme",
+        "race": "Humain",
+        "status": "Vivant",
+        "appearances": "Chapter 1",
+        "married": "oui",
+        "personality": "Il a toujours été différent des autres personnes, non seulement à cause de son physique (puisqu'il a naturellement les cheveux oranges) mais aussi parce qu'il voit les fantômes. De caractère assez sombre, direct,",
+        "image": "https://cdn.discordapp.com/attachments/834087472026615889/1040291723504529478/ichigo_kurosaki.png"
+    },
+    "anime" : {
+        "name": "Gintama",
+        "quote": "Craignez nous d’autant plus que nous ne possédons pas de corps",
+        "role": "Main"
+    }
+}

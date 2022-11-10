@@ -1,0 +1,19 @@
+{
+    "character": {
+        "name": "ichigo kurosaki", 
+        "age": "29",
+        "birth": "July-15",
+        "gender": "Male", 
+        "race": "Human",
+        "status": "Alive",
+        "appearances": "Chapter 1",
+        "married": "yes",
+        "personality": "When he was younger, Ichigo considered his mother to be the center of his world, always smiling when he was with Masaki and regularly holding her hand",
+        "image": "https://cdn.discordapp.com/attachments/834087472026615889/1040291723504529478/ichigo_kurosaki.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "... If fate is a millstone, then we are the grist. There is nothing we can do. So I wish for strength. If I cannot protect them from the wheel, then give me a strong blade, and enough strength... to shatter fate.",
+        "role": "Main"
+    }
+}
