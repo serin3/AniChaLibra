@@ -1,0 +1,30 @@
+✨ | 2.0.0 | New Feature 
+
+========
+[x] - Every Character has now they own anime folder includes Male/Female Gender
+[x] - AniChaLibra has new path right now as 
+src/en/female/male { before }
+src/en/{anime}/female|male { now }
+[x] - Char-Struct has been updated from :
+----
+{ 
+  "id" : {
+    "char-anime": " "
+    }
+}
+----
+to :
+----
+{
+  "character": {
+      "name": " "
+    },
+  "anime": {
+      "name": " "
+    }
+}
+----
+ [ for full change check char-struct.json ]
+[x] - Char-data.json has been replaced to character name 
+[x] - Our old data has been removed
+========

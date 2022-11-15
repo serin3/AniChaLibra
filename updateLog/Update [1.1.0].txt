@@ -1,0 +1,8 @@
+✨ | v1.1.0 | Language
+
+========
+[x] - Add French Version
+[x] - Add Arabic Version
+[x] - Move english version into EN Dir
+[x] - Add Birth Struct
+========

@@ -1,0 +1,7 @@
+✨ | 2.0.9 | New Stuff / Reforms
+
+========
+[x] - We added a new folder named updateLog to keep you up to date with the latest updates from us 
+[x] - As a first test we're decided to make all character set as 20 per anime [ 10 per gender ] even if thats anime has only girls or made for'hem (it will still 10 characters and won't create male folder if has only girls) [We'll make it 30 characters later]
+[x] - Maybe relatives character it will be added as soon as possible but it might includes a spoiler content
+========
