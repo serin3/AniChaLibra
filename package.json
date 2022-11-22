@@ -1,6 +1,6 @@
 {
   "name": "anichalibra",
-  "version": "2.0.9",
+  "version": "2.1.3",
   "description": "Anime Character Information Library",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

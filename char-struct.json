@@ -15,5 +15,27 @@
         "name": "",
         "quote": "",
         "role": "Main | Supporting"
+    },
+    "relatives":  {
+        "wife": "",
+        "Husband": "",
+        "son": "",
+        "daughter": "",
+        "sister": "",
+        "brother": "",
+        "nephew": "",
+        "adopt-son": "",
+        "adopt-daughter": "",
+        "adopt-sister": "",
+        "adopt-brother": "",
+        "adopt-uncle": "",
+        "adopt-grandfather": "",
+        "adopt-grandmother": "",
+        "father": "",
+        "mother": "",
+        "uncle": "",
+        "aunt": "",
+        "grandfather": "",
+        "grandmother": ""
     }
 }

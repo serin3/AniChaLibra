@@ -1,0 +1,7 @@
+✨ | 2.1.3 | Relatives
+
+========
+[x] - We added new characters
+[x] - Character Relatives has been arrived
+[x] - char-struct.json has been updated
+========
