@@ -15,5 +15,12 @@
         "name": "Bleach",
         "quote": "... If fate is a millstone, then we are the grist. There is nothing we can do. So I wish for strength. If I cannot protect them from the wheel, then give me a strong blade, and enough strength... to shatter fate.",
         "role": "Main"
+    },
+    "relatives":  {
+        "wife": "Orihime Inoue",
+        "son": "Kazui Kurosaki",
+        "sister": "Karin Kurosaki - Yuzu Korosaki",
+        "father": "Isshin Kurosaki",
+        "mother": "Masaki Kurosaki"
     }
 }

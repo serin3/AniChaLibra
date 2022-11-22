@@ -1,0 +1,24 @@
+{
+    "character": {
+        "name": "renji abarai", 
+        "age": "unknown",
+        "birth": "August-31",
+        "gender": "Male", 
+        "race": "Soul",
+        "status": "Alive",
+        "appearances": "Chapter 51",
+        "married": "yes",
+        "personality": "Renji is quite dynamic, as his personality varies from smug and cocky before a fight, to then disquieted and depressed after a major defeat, but shows himself to be an incredibly serious and determined fighter when confronted with an actual threat. Willing to fight",
+        "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042100281997000877/renji.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "Showing concern for a warrior's life on the battlefield is an insult to that warrior",
+        "role": "Main"
+    },
+    "relatives":  {
+        "wife": "Rukia Kuchiki",
+        "daughter": "Ichika Abarai",
+        "brother": "Byakuya Kuchiki (in-law)"
+    }
+}

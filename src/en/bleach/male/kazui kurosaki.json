@@ -1,0 +1,26 @@
+{
+    "character": {
+        "name": "kazui kurosaki", 
+        "age": "unknown",
+        "birth": "unknown",
+        "gender": "Male", 
+        "race": "Human",
+        "status": "Alive",
+        "appearances": "Chapter 686",
+        "married": "no",
+        "personality": "Kazui is rambunctious, regularly making uninvited appearances in Hiyori Sarugaki's home and freely interacting with remnants of Yhwach's Reiatsu",
+        "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042098192352809001/kazui.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "I'm Kazui Kurosaki And I'm a Shinigami too!",
+        "role": "Supporting"
+    },
+    "relatives":  {
+        "father": "Ichigo Kurosaki",
+        "mother": "Orihime Inoue",
+        "aunt": "Karin Kurosaki - Yuzu Korosaki",
+        "grandfather": "Isshin Kurosaki",
+        "grandmother": "Masaki Kurosaki"
+    }
+}

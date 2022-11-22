@@ -1,0 +1,26 @@
+{
+    "character": {
+        "name": "yuzu kurosaki", 
+        "age": "23",
+        "birth": "May-6",
+        "gender": "Female", 
+        "race": "Human",
+        "status": "Alive",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "Compared to Karin, Yuzu is more soft-spoken. She is also the more empathetic of the two girls. She takes care of the housework, such as cooking meals and tidying up the living space, on a daily basis. She also regularly cuts Ichigo's hair.",
+        "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042121303504736387/yuzu.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "He must be stress out. He's been seeing a lot of ghost lately",
+        "role": "Main"
+    },
+    "relatives":  {
+        "brother": "Ichigo Kurosaki",
+        "sister": "Karin Korosaki (twin) - Orihime Inoue (in-law)",
+        "nephew": "Kazui Kurosaki",
+        "father": "Isshin Kurosaki",
+        "mother": "Masaki Kurosaki"
+    }
+}

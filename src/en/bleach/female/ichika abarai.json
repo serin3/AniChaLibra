@@ -17,10 +17,8 @@
         "role": "Main"
     },
     "relatives":  {
-        "husband": "Renji Abarai",
-        "daughter": "Ichika Abarai",
-        "sister": "Hisana Kuchiki (in-law)",
-        "adopt-brother": "Byakuya Kuchiki",
-        "adopt-grandfather": "Ginrei Kuchiki"
+        "father": "Renji Abarai",
+        "mother": "Rukia Kuchiki",
+        "adopt-uncle": "Byakuya Kuchiki"
     }
 }
