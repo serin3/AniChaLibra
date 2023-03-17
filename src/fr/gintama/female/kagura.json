@@ -15,5 +15,10 @@
         "name": "Gintama",
         "quote": "j'aime me battre, c'est l'instinct yato, je ne peux pas aller contre lui, c'est pourquoi je me battrai avec mon sang yato, je vais me battre pour changer",
         "role": "Main"
+    },
+    "relatives": {
+        "father": "Umibouzu",
+        "mother": "Kouka",
+        "brother": "Kamui"
     }
 }
