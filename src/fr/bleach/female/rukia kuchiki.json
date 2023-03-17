@@ -15,5 +15,12 @@
         "name": "Bleach",
         "quote": "... Si je demande, répondras-tu ? ...C'est ton problème. Un problème profond, profond. Je n'ai pas le droit de savoir. Je n'ai pas de méthode pour entrer dans les profondeurs de ton cœur sans le salir. Alors je vais attendre. Quand tu veux parler, quand tu penses que c'est bien de parler... Parle-moi. Jusqu'à ce moment, j'attendrai",
         "role": "Main"
+    },
+    "relatives":  {
+        "husband": "Renji Abarai",
+        "daughter": "Ichika Abarai",
+        "sister": "Hisana Kuchiki (in-law)",
+        "adopt-brother": "Byakuya Kuchiki",
+        "adopt-grandfather": "Ginrei Kuchiki"
     }
 }
