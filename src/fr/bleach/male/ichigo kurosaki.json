@@ -15,5 +15,13 @@
         "name": "Gintama",
         "quote": "Craignez nous d’autant plus que nous ne possédons pas de corps",
         "role": "Main"
+    },
+    "relatives":  {
+        "wife": "Orihime Inoue",
+        "son": "Kazui Kurosaki",
+        "brother": "Sora Inoue (in-law)",
+        "sister": "Karin Kurosaki - Yuzu Korosaki",
+        "father": "Isshin Kurosaki",
+        "mother": "Masaki Kurosaki"
     }
 }
