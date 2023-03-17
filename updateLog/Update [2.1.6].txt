@@ -1,0 +1,7 @@
+✨ | 2.1.6 | ADD Characters
+
+========
+[x] - FIX EN/FEMALE [ichika abarai] information
+[x] - Add New Charater to AR/FR
+[x] - Copying existing Characters to AR/FR
+========
