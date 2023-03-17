@@ -15,5 +15,10 @@
         "name": "Gintama",
         "quote": "I like to fight. That's the Yato instinct, I can't go against it. That's why I'll fight with my Yato blood. I'm going to fight to change",
         "role": "Main"
+    },
+    "relatives": {
+        "father": "Umibouzu",
+        "mother": "Kouka",
+        "brother": "Kamui"
     }
 }
