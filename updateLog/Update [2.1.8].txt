@@ -1,0 +1,8 @@
+✨ | 3.0.1 | Re-Build Project
+
+========
+[x] - All character are now merged 
+[x] - Add the remaining characters
+[x] - Add New Characters
+[x] - Fixing Characters Information
+========
