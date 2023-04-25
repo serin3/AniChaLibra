@@ -1,0 +1,22 @@
+{
+    "character": {
+        "name": "كيغو اساسنو", 
+        "age": "27",
+        "birth": "ابريل-1",
+        "gender": "ذكر", 
+        "race": "بشري",
+        "status": "حي",
+        "appearances": "الفصل 213",
+        "married": "no",
+        "personality": " ",
+        "image": " "
+    },
+    "anime": {
+        "name": "بليتش",
+        "quote": "",
+        "role": "مساعدة"
+    },
+    "relatives":  {
+        "sister": "ميزوهو اسانو"
+    }
+}

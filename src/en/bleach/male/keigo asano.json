@@ -1,0 +1,22 @@
+{
+    "character": {
+        "name": "Keigo Asano", 
+        "age": "27",
+        "birth": "April-1",
+        "gender": "Male", 
+        "race": "Human",
+        "status": "Alive",
+        "appearances": "Chapter 213",
+        "married": "no",
+        "personality": " ",
+        "image": " "
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "",
+        "role": "Supporting"
+    },
+    "relatives":  {
+        "sister": "Mizuho Asano"
+    }
+}

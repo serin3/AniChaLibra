@@ -1,0 +1,20 @@
+{
+    "character": {
+        "name": "Rangiku Matsumoto", 
+        "age": "unknown",
+        "birth": "September-29",
+        "gender": "Female | Male", 
+        "race": "Soul",
+        "status": "Alive",
+        "appearances": "Chapter 80",
+        "married": "no",
+        "personality": "Rangiku tends to be a slacker who dislikes paperwork and loves to drink. She is not the slightest bit modest about her appearance, frequently referring or complaining about her large breasts in normal casual conversation, much to the embarrassment/amusement of anyone around at the time",
+        "image": "https://cdn.discordapp.com/attachments/953689602953187389/1089140482053001317/latest.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "Oh, my. So you do listen after all. I was thinking your ears were as bad as your face and your style",
+        "role": "Supporting"
+    },
+    "relatives": "unknown"
+}

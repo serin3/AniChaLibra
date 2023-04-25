@@ -1,0 +1,26 @@
+{
+    "character": {
+        "name": "karin kurosaki", 
+        "age": "23",
+        "birth": "May-6",
+        "gender": "Femelle", 
+        "race": "Human",
+        "status": "Vivant",
+        "appearances": "Chapter 1",
+        "married": "no",
+        "personality": "Comparée à sa sœur jumelle délicate à la voix douce, Yuzu, Karin Kurosaki est une personne plus autoritaire et plus franche. L'extérieur dur de Karin résulte de la mort de sa mère; parce qu'elle ne pouvait pas être utile à la maison comme Yuzu, elle résolut de ne jamais pleurer pour ne pas accabler sa famille avec ses problèmes personnels",
+        "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042119919510237305/karin.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "Que vous puissiez les voir ou non, tant que vous n'y croyez pas, c'est pareil qu'ils n'existent pas",
+        "role": "Main"
+    },
+    "relatives":  {
+        "brother": "Ichigo Kurosaki",
+        "sister": "Yuzu Korosaki (twin) - Orihime Inoue (in-law)",
+        "nephew": "Kazui Kurosaki",
+        "father": "Isshin Kurosaki",
+        "mother": "Masaki Kurosaki"
+    }
+}

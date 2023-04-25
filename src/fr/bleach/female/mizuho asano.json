@@ -1,0 +1,22 @@
+{
+    "character": {
+        "name": "Mizuho Asano", 
+        "age": "unknown",
+        "birth": "April-6",
+        "gender": "Femelle", 
+        "race": "Humain",
+        "status": "Vivant",
+        "appearances": "Chapter 213",
+        "married": "non",
+        "personality": "Mizuho est très violente et se met en colère pour de très petites choses, comme gronder son frère quand il lui faut du temps pour obtenir du jus.",
+        "image": "https://cdn.discordapp.com/attachments/953689602953187389/1089143965816729680/350.png"
+    },
+    "anime": {
+        "name": "Bleach",
+        "quote": "unknown",
+        "role": "Supporting"
+    },
+    "relatives":  {
+        "brother": "Keigo Asano"
+    }
+}
