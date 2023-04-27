@@ -1,0 +1,475 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "character": {
+                "name": "Cirucci Sanderwicci", 
+                "age": "Unknown",
+                "birth": "February-27",
+                "gender": "Femelle", 
+                "race": "Arrancar",
+                "status": "Vivant",
+                "appearances": "Chapter 251",
+                "married": "no",
+                "personality": "Cirucci est plutôt grossier, arrogant et direct. Elle se moque constamment de ses adversaires et est légèrement sadique. Cependant, elle n’a aucun scrupule à souligner quand d’autres ont des traits similaires.",
+                "image": "https://cdn.discordapp.com/attachments/834087472026615889/1040226906177544212/cirucci_sanderwicci.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Would you mind not attacking me while I'm in the middle of saying something? Jeez, you have no manners, do you, four eyes?!",
+                "role": "Supporting"
+            },
+            "relatives": {
+                "error": "unknown Relatives"
+            }
+        },
+        {
+            "id": "2",
+            "character": {
+                "name": "ichika abarai", 
+                "age": "unknown",
+                "birth": "unknown",
+                "gender": "Femelle", 
+                "race": "Soul",
+                "status": "Vivant",
+                "appearances": "Chapter 686",
+                "married": "no",
+                "personality": "Ichika est une enfant confiante, prête à errer à l'insu de ses parents. Sa mère a indiqué qu'elle avait tendance à se battre. Elle salue Kazui Kurosaki en pointant son Zanpakutō vers lui tout en se présentant.",
+                "image": "https://cdn.discordapp.com/attachments/958365200099213425/1061303637906825316/ichika_abarai.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "unknown",
+                "role": "Supporting"
+            },
+            "relatives":  {
+                "father": "Renji Abarai",
+                "mother": "Rukia Kuchiki",
+                "aunt": "Hisana Kuchiki",
+                "uncle": "Byakuya Kuchiki"
+            }
+        },
+        {
+            "id": "3",
+            "character": {
+                "name": "karin kurosaki", 
+                "age": "23",
+                "birth": "May-6",
+                "gender": "Femelle", 
+                "race": "Human",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "Comparée à sa sœur jumelle délicate à la voix douce, Yuzu, Karin Kurosaki est une personne plus autoritaire et plus franche. L'extérieur dur de Karin résulte de la mort de sa mère; parce qu'elle ne pouvait pas être utile à la maison comme Yuzu, elle résolut de ne jamais pleurer pour ne pas accabler sa famille avec ses problèmes personnels",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042119919510237305/karin.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Que vous puissiez les voir ou non, tant que vous n'y croyez pas, c'est pareil qu'ils n'existent pas",
+                "role": "Main"
+            },
+            "relatives":  {
+                "brother": "Ichigo Kurosaki",
+                "sister": "Yuzu Korosaki (twin) - Orihime Inoue (in-law)",
+                "nephew": "Kazui Kurosaki",
+                "father": "Isshin Kurosaki",
+                "mother": "Masaki Kurosaki"
+            }
+        },
+        {
+            "id": "4",
+            "character": {
+                "name": "Mizuho Asano", 
+                "age": "unknown",
+                "birth": "April-6",
+                "gender": "Femelle", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 213",
+                "married": "non",
+                "personality": "Mizuho est très violente et se met en colère pour de très petites choses, comme gronder son frère quand il lui faut du temps pour obtenir du jus.",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1089143965816729680/350.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "unknown",
+                "role": "Supporting"
+            },
+            "relatives":  {
+                "brother": "Keigo Asano"
+            }
+        },
+        {
+            "id": "5",
+            "character": {
+                "name": "orihime inoue", 
+                "age": "29",
+                "birth": "September-3",
+                "gender": "Femelle", 
+                "race": "Human",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "oui",
+                "personality": "La représentation d'Orihime d'elle-même dans le futur. Orihime est indépendante, amicale, pleine d'humour, optimiste, sensible, attentionnée et gentille. Elle se présente comme naïve et plutôt ignorante",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042091948200173668/orihime.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Ne meurs pas ! Kurosaki-kun ! Ça ne me dérange pas si tu ne gagnes pas. Vous n'avez même pas besoin d'essayer. Alors s'il te plaît, ne te fais plus de mal...",
+                "role": "Main"
+            },
+            "relatives":  {
+                "husband": "Ichigo Korosaki",
+                "son": "Kazui Kurosaki",
+                "brother": "Sora Inoue",
+                "sister": "Karin Kurosaki (in-law) - Yuzu Kurosaki (in-law)",
+                "father": "Isshin Kurosaki (in-law)",
+                "mother": "Masaki Kurosaki (in-law)"
+            }
+        },
+        {
+            "id": "6",
+            "character": {
+                "name": "Rangiku Matsumoto", 
+                "age": "unknown",
+                "birth": "September-29",
+                "gender": "Femelle", 
+                "race": "Soul",
+                "status": "Vivant",
+                "appearances": "Chapter 80",
+                "married": "non",
+                "personality": "Rangiku a tendance à être un fainéant qui n'aime pas la paperasse et aime boire. Elle n'est pas du tout modeste quant à son apparence, se référant ou se plaignant fréquemment de ses gros seins dans une conversation décontractée normale, au grand embarras / amusement de tous ceux qui l'entouraient à ce moment-là.",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1089140482053001317/latest.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Oh mon. Donc tu écoutes après tout. Je pensais que tes oreilles étaient aussi mauvaises que ton visage et ton style",
+                "role": "Supporting"
+            },
+            "relatives": {
+                "error": "unknown Relatives"
+            }
+        },
+        {
+            "id": "7",
+            "character": {
+                "name": "Rukia Kuchiki", 
+                "age": "Unknown",
+                "birth": "January-14",
+                "gender": "Femelle", 
+                "race": "âme",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "oui",
+                "personality": "Initialement née dans une classe inférieure, Rukia conserve sa modestie, même en tant que membre adopté de la noblesse. Elle est gracieuse et «propre», mais choisit de parler aux gens ordinaires. Cependant, son attitude cool et solitaire l'oblige souvent à cacher ses problèmes personnels, même à ses amis. Selon Ukitake, Rukia n'ouvre jamais son cœur et a du mal à se faire des amis. Rukia n'a aucune idée des voies du monde humain moderne. Elle est très douée pour jouer",
+                
+                "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035897532255055972/Rukia_Kuchiki.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "... Si je demande, répondras-tu ? ...C'est ton problème. Un problème profond, profond. Je n'ai pas le droit de savoir. Je n'ai pas de méthode pour entrer dans les profondeurs de ton cœur sans le salir. Alors je vais attendre. Quand tu veux parler, quand tu penses que c'est bien de parler... Parle-moi. Jusqu'à ce moment, j'attendrai",
+                "role": "Main"
+            },
+            "relatives":  {
+                "husband": "Renji Abarai",
+                "daughter": "Ichika Abarai",
+                "sister": "Hisana Kuchiki (in-law)",
+                "adopt-brother": "Byakuya Kuchiki",
+                "adopt-grandfather": "Ginrei Kuchiki"
+            }
+        },
+        {
+            "id": "8",
+            "character": {
+                "name": "yuzu kurosaki", 
+                "age": "23",
+                "birth": "May-6",
+                "gender": "Femelle", 
+                "race": "Human",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "Comparé à Karin, Yuzu a une voix plus douce. Elle est aussi la plus empathique des deux filles. Elle s'occupe des tâches ménagères, telles que la préparation des repas et le rangement de l'espace de vie, au quotidien. Elle coupe aussi régulièrement les cheveux d'Ichigo.",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042121303504736387/yuzu.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Il doit être stressé. Il a vu beaucoup de fantômes ces derniers temps",
+                "role": "Main"
+            },
+            "relatives":  {
+                "brother": "Ichigo Kurosaki",
+                "sister": "Karin Korosaki (twin) - Orihime Inoue (in-law)",
+                "nephew": "Kazui Kurosaki",
+                "father": "Isshin Kurosaki",
+                "mother": "Masaki Kurosaki"
+            }
+        },
+        {
+            "id": "9",
+            "character" : {
+                "name": "ichigo kurosaki",
+                "age": "29",
+                "birth": "Juillet-15",
+                "gender": "Homme",
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "oui",
+                "personality": "Il a toujours été différent des autres personnes, non seulement à cause de son physique (puisqu'il a naturellement les cheveux oranges) mais aussi parce qu'il voit les fantômes. De caractère assez sombre, direct,",
+                "image": "https://cdn.discordapp.com/attachments/834087472026615889/1040291723504529478/ichigo_kurosaki.png"
+            },
+            "anime" : {
+                "name": "Bleach",
+                "quote": "Craignez nous d’autant plus que nous ne possédons pas de corps",
+                "role": "Main"
+            },
+            "relatives":  {
+                "wife": "Orihime Inoue",
+                "son": "Kazui Kurosaki",
+                "brother": "Sora Inoue (in-law)",
+                "sister": "Karin Kurosaki - Yuzu Korosaki",
+                "father": "Isshin Kurosaki",
+                "mother": "Masaki Kurosaki"
+            }
+        },
+        {
+            "id": "10",
+            "character": {
+                "name": "Keigo Asano", 
+                "age": "27",
+                "birth": "April-1",
+                "gender": "Homme", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 213",
+                "married": "no",
+                "personality": "Keigo est généralement un garçon maladroit et extrêmement hyperactif, utilisant souvent des mouvements et des mots trop dramatiques pour exprimer ses sentiments. Il aime regarder des feux d'artifice, jouer à des jeux de rôle et aller à des fêtes sur la plage.",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1101143664387960913/keigo.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Avez-vous entendu un camion s'écraser sur la maison d'Ichigo !!!",
+                "role": "Supporting"
+            },
+            "relatives":  {
+                "sister": "Mizuho Asano"
+            }
+        },
+        {
+            "id": "11",
+            "character": {
+                "name": "Byakuya Kuchiki", 
+                "age": "unknown",
+                "birth": "January-31",
+                "gender": "Homme", 
+                "race": "Soul",
+                "status": "Vivant",
+                "appearances": "Chapter 51",
+                "married": "no",
+                "personality": "Byakuya croit fermement à la loi et à l'ordre. En tant que capitaine du Gotei 13 et chef d'une des grandes familles nobles, il travaille dur pour une société pacifique",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1100891368089468959/byakuya-kuchiki.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Soyez fier, comme quelqu'un qui, après avoir été frappé par ce pouvoir, est encore capable de conserver la forme de son corps.",
+                "role": "Main"
+            },
+            "relatives":  {
+                "sister": "Rukia Kuchiki (Adopted)"
+            }
+        },
+        {
+            "id": "12",
+            "character": {
+                "name": "renji abarai", 
+                "age": "unknown",
+                "birth": "August-31",
+                "gender": "Homme", 
+                "race": "Soul",
+                "status": "Vivant",
+                "appearances": "Chapter 51",
+                "married": "oui",
+                "personality": "Renji est assez dynamique, car sa personnalité varie de suffisant et arrogant avant un combat, puis inquiet et déprimé après une défaite majeure, mais se révèle être un combattant incroyablement sérieux et déterminé lorsqu'il est confronté à une menace réelle. Prêt à se battre",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042100281997000877/renji.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Se soucier de la vie d'un guerrier sur le champ de bataille est une insulte à ce guerrier",
+                "role": "Main"
+            },
+            "relatives":  {
+                "wife": "Rukia Kuchiki",
+                "daughter": "Ichika Abarai",
+                "brother": "Byakuya Kuchiki (in-law)"
+            }
+        },
+        {
+            "id": "13",
+            "character": {
+                "name": "illyasviel von einzbern", 
+                "age": "18",
+                "birth": "November-20",
+                "gender": "Femelle", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "Illya est joyeuse et extravertie, optimiste et affiche généralement une attitude positive. Possédant un comportement amical, il est facile de lui parler et a tendance à être enjoué et espiègle. Au fond d'elle-même, cependant, Illya est seule car elle n'a pas d'amis de son âge avec qui jouer et est souvent coincée à l'intérieur du château d'Einzbern. Elle demande à ceux avec qui elle se sent à l'aise de l'appeler 'Illya'",
+                "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035888968803307550/Illyasviel_von_Einzbern.png"
+            },
+            "anime": {
+                "name": "Fate/Zero",
+                "quote": "C'est ta dernière chance, Onii-chan. Je vais vous demander une fois de plus. Shirou... sois à moi",
+                "role": "Supporting"
+            },
+            "relatives": {
+                "error": "unknown Relatives"
+            }
+        },
+        {
+            "id": "14",
+            "character": {
+                "name": "kagura", 
+                "age": "20",
+                "birth": "Nov-3",
+                "gender": "Femelle", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "kagura peut être décrite comme naïve à une faute comme on le voit dans son introduction où elle a été trompée par un gang en lui faisant croire qu'elle les protégeait lorsqu'elle a combattu leur gang rival. elle refuse d'accepter son héritage en tant que yato et veut juste vivre comme une fille normale",
+                "image": "https://cdn.discordapp.com/attachments/834087472026615889/1039973510476480572/kagura.png"
+            },
+            "anime": {
+                "name": "Gintama",
+                "quote": "j'aime me battre, c'est l'instinct yato, je ne peux pas aller contre lui, c'est pourquoi je me battrai avec mon sang yato, je vais me battre pour changer",
+                "role": "Main"
+            },
+            "relatives": {
+                "father": "Umibouzu",
+                "mother": "Kouka",
+                "brother": "Kamui"
+            }
+        },
+        {
+            "id": "15",
+            "character": {
+                "name": "Yuuko Aioi", 
+                "age": "16",
+                "birth": "May-26",
+                "gender": "Femelle", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "Yuuko adore faire des blagues pour faire rire les autres, mais échoue souvent ou pousse une blague trop loin. Yuuko n'est généralement pas découragée par son incapacité à faire des blagues et est créative en proposant de nouvelles blagues ou des réactions humoristiques. Elle a tendance à être maladroite et adopte une approche simple de la vie",
+                "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035892564680769576/Yuuko_Aioi.png"
+            },
+            "anime": {
+                "name": "Nichijou",
+                "quote": "Super Ultra Génial Délicieux Merveilleux Mauvais",
+                "role": "Main"
+            },
+            "relatives": {
+                "error": "unknown Relatives"
+            }
+        },
+        {
+            "id": "16",
+            "character": {
+                "name": "Mikoto Misaka", 
+                "age": "21",
+                "birth": "May-2",
+                "gender": "Femelle", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "Pour la plupart des gens, elle est considérée comme une 'femme convenable', mais en réalité, elle est colérique, fière et a une attitude inappropriée avec quelques légères tendances et insécurités de garçon manqué - un fait que peu de gens connaissent. Malgré cela, elle est généralement amicale et facile à vivre",
+                "image": "https://cdn.discordapp.com/attachments/954795554389520465/955205720784117780/Mikoto_Misaka.jpg"
+            },
+            "anime": {
+                "name": "To Aru Majutsu no Index",
+                "quote": "En dépendant des autres et en les laissant dépendre de vous, les gens peuvent dépasser ce qu'ils peuvent faire en tant qu'individus",
+                "role": "Main"
+            },
+            "relatives": {
+                "error": "unknown Relatives"
+            }
+        },
+        {
+            "id": "17",
+            "character": {
+                "name": "Sora Kasugano", 
+                "age": "16",
+                "birth": "February-5",
+                "gender": "Femelle", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "Le personnage le plus asocial de Yosuga no Sora. Sœur jumelle fraternelle de Haruka Kasugano. Sous l'apparence angélique de poupée de Sora se cache une personnalité gênante qui est sujette à la paresse retirée et à un manque assez grave de grâces sociales",
+                "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035886567069331536/Sora_Kasugano.png"
+            },
+            "anime": {
+                "name": "Yosuga no Sora",
+                "quote": "Reste à mes cotés; ne me quitte pas",
+                "role": "Main"
+            },
+            "relatives": {
+                "error":"unknown Relatives"
+            }
+        },
+        {
+            "id": "18",
+            "character": {
+                "name": "kazui kurosaki", 
+                "age": "unknown",
+                "birth": "unknown",
+                "gender": "Homme", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 686",
+                "married": "no",
+                "personality": "Kazui est exubérant, faisant régulièrement des apparitions non invitées dans la maison de Hiyori Sarugaki et interagissant librement avec les restes du Reiatsu de Yhwach.",
+                "image": "https://cdn.discordapp.com/attachments/953689602953187389/1042098192352809001/kazui.png"
+            },
+            "anime": {
+                "name": "Bleach",
+                "quote": "Je suis Kazui Kurosaki et je suis aussi un Shinigami !",
+                "role": "Supporting"
+            },
+            "relatives":  {
+                "father": "Ichigo Kurosaki",
+                "mother": "Orihime Inoue",
+                "aunt": "Karin Kurosaki - Yuzu Korosaki",
+                "grandfather": "Isshin Kurosaki",
+                "grandmother": "Masaki Kurosaki"
+            }
+        },
+        {
+            "id": "19",
+            "character": {
+                "name": "Sakata Gintoki", 
+                "age": "29",
+                "birth": "October-10",
+                "gender": "Homme", 
+                "race": "Humain",
+                "status": "Vivant",
+                "appearances": "Chapter 1",
+                "married": "no",
+                "personality": "Gintoki est extrêmement paresseux. On le voit souvent porter une expression stupide sur son visage et passe ses journées à se prélasser à lire Shounen Jump tout en donnant des conseils sages et sages à ses jeunes employés, même s'il ne sait pas vraiment de quoi il parle la plupart du temps",
+                "image": "https://cdn.discordapp.com/attachments/954795554389520465/1035886808023711814/Sakata_Gintoki.png"
+            },
+            "anime": {
+                "name": "Gintama",
+                "quote": "Avant l'aube, la nuit est la plus sombre juste avant l'aube. Mais gardez les yeux ouverts, gardez-les ouverts quelle que soit la noirceur de la nuit à venir. Si tu détournes tes yeux de l'obscurité, tu seras aveugle aux rayons d'un nouveau jour",
+                "role": "Main"
+            },
+            "relatives": {
+                "error": "unknown Relatives"
+            }
+        }
+    ]
+}
