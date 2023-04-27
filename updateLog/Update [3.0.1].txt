@@ -5,4 +5,6 @@
 [x] - Add the remaining characters
 [x] - Add New Characters
 [x] - Fixing Characters Information
+[x] - Oldest Data has been deprecated
+[x] - Relatives has been updated 
 ========
