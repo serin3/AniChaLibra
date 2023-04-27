@@ -1,6 +1,6 @@
 import requests as animeCharacterDB
 
-fetchInformation = animeCharacterDB.get('https://github.com/serin3/AniChaLibra/tree/master/src/en/animeCharacters')
+fetchInformation = animeCharacterDB.get('animeChDB.json')
 
 animechdb = fetchInformation
 
