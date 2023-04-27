@@ -1,7 +1,7 @@
 import requests as animeCharacterDB
 
-fetchInformation = animeCharacterDB.get('https://github.com/serin3/AniChaLibra/blob/master/src/ar/animeCharacters/animeChDB.json')
+fetchInformation = animeCharacterDB.get('https://raw.githubusercontent.com/serin3/AniChaLibra/master/src/ar/animeCharacters/animeChDB.json')
 
-animechdb = fetchInformation
+animechdb = fetchInformation.text
 
 print(animechdb)
