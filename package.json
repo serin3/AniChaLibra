@@ -1,10 +1,8 @@
 {
   "name": "anichalibra",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Anime Character Information Library",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/serin3/AniChaLibra.git"
@@ -12,7 +10,7 @@
   "keywords": [
     "anime"
   ],
-  "author": "NightcoreATDZO#3550",
+  "author": "nightcoreat",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/serin3/AniChaLibra/issues"
