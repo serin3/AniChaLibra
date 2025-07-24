@@ -1,1 +1,0 @@
-There's a total of 19 characters has been added
