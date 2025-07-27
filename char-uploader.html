@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Anime Character</title>
+  <link rel="stylesheet" href="/pageStyle/addChar.css" />
+</head>
+<body>
+  <h2>Add New Character</h2>
+  <form id="charForm">
+    <h3>Character</h3>
+    <input name="name" placeholder="Name" required>
+    <input name="age" placeholder="Age">
+    <input name="birth" placeholder="Birth (e.g. April-1)">
+    <select name="gender">
+      <option value="">-- Gender --</option>
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+    <select name="race">
+      <option value="">-- Race --</option>
+      <option>Human</option>
+      <option>Soul</option>
+      <option>Goblin</option>
+      <option>Devil</option>
+    </select>
+    <select name="status">
+      <option value="">-- Status --</option>
+      <option>Alive</option>
+      <option>Dead</option>
+      <option>Unknown</option>
+    </select>
+    <input name="appearances" placeholder="Appearances (e.g. Chapter 213)">
+    <select name="married">
+      <option value="">-- Married --</option>
+      <option>yes</option>
+      <option>no</option>
+    </select>
+    <textarea name="personality" placeholder="Personality"></textarea>
+    <input name="image" placeholder="Image URL">
+
+    <h3>Anime</h3>
+    <input name="animeName" placeholder="Anime Name" required>
+    <input name="quote" placeholder="Quote">
+    <select name="role">
+      <option value="">-- Role --</option>
+      <option>Main</option>
+      <option>Supporting</option>
+    </select>
+
+    <h3>Relatives</h3>
+    <input name="father" placeholder="Father">
+    <input name="mother" placeholder="Mother">
+    <input name="sister" placeholder="Sister">
+    <input name="brother" placeholder="Brother">
+    <input name="wife" placeholder="Wife">
+    <input name="husband" placeholder="Husband">
+    <input name="son" placeholder="Son">
+    <input name="daughter" placeholder="Daughter">
+    <input name="uncle" placeholder="Uncle">
+    <input name="aunt" placeholder="Aunt">
+    <input name="grandfather" placeholder="Grandfather">
+    <input name="grandmother" placeholder="Grandmother">
+    <input name="nephew" placeholder="Nephew">
+    <input name="adopt-son" placeholder="Adopted Son">
+    <input name="adopt-daughter" placeholder="Adopted Daughter">
+    <input name="adopt-sister" placeholder="Adopted Sister">
+    <input name="adopt-brother" placeholder="Adopted Brother">
+    <input name="adopt-uncle" placeholder="Adopted Uncle">
+    <input name="adopt-grandfather" placeholder="Adopted Grandfather">
+    <input name="adopt-grandmother" placeholder="Adopted Grandmother">
+    <input name="error" placeholder="Error [If unrecognized]">
+
+    <button type="submit">➕ Add Character</button>
+  </form>
+
+  <div class="result" id="result" style="display:none;"></div>
+
+<script>
+  function showToast(message, type = 'success', duration = 4000) {
+    const toast = document.getElementById('result');
+    toast.className = `toast ${type} show`;
+    toast.innerHTML = `
+      <span>${message}</span>
+      <button class="close-btn" onclick="hideToast()">×</button>
+    `;
+    toast.style.display = 'block';
+
+    setTimeout(() => {
+      hideToast();
+    }, duration);
+  }
+
+  function hideToast() {
+    const toast = document.getElementById('result');
+    toast.classList.remove('show');
+    setTimeout(() => {
+      toast.style.display = 'none';
+    }, 400);
+  }
+
+  const form = document.getElementById("charForm");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+
+    function cleanFields(data) {
+      const obj = {};
+      for (let [key, value] of data.entries()) {
+        if (value.trim() !== "") {
+          obj[key] = value.trim();
+        }
+      }
+      return obj;
+    }
+
+    const data = cleanFields(formData);
+    const character = {};
+    const anime = {};
+    const relatives = {};
+
+    for (const key in data) {
+      if (["animeName", "quote", "role"].includes(key)) {
+        if (key === "animeName") anime.name = data[key];
+        else anime[key] = data[key];
+      } else if ([
+        "father", "mother", "sister", "brother", "wife", "husband", "son", "daughter",
+        "uncle", "aunt", "grandfather", "grandmother", "nephew",
+        "adopt-son", "adopt-daughter", "adopt-sister", "adopt-brother",
+        "adopt-uncle", "adopt-grandfather", "adopt-grandmother", "error"
+      ].includes(key)) {
+        relatives[key] = data[key];
+      } else {
+        character[key] = data[key];
+      }
+    }
+
+    const finalData = { character, anime, relatives };
+
+    try {
+      const res = await fetch("http://localhost:3000/add-character", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(finalData)
+      });
+
+      const json = await res.json();
+      if (res.ok) {
+        showToast(`✅ ${json.message}`, 'success');
+        form.reset();
+      } else {
+        showToast(`❌ ${json.message}`, 'warning');
+      }
+    } catch (err) {
+      showToast("❌ Error: Could not reach the server", 'error');
+    }
+  });
+</script>
+
+</body>
+</html>
