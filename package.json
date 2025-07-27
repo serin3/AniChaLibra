@@ -1,8 +1,7 @@
 {
   "name": "anichalibra",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Anime Character Information Library",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/serin3/AniChaLibra.git"
@@ -11,10 +10,15 @@
     "anime"
   ],
   "author": "nightcoreat",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/serin3/AniChaLibra/issues"
   },
   "homepage": "https://github.com/serin3/AniChaLibra#readme",
-  "updatelog": "https://github.com/serin3/AniChaLibra/tree/master/updateLog"
+  "updatelog": "https://github.com/serin3/AniChaLibra/tree/master/updateLog",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  }
 }
