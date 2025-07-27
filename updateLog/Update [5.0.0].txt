@@ -1,0 +1,21 @@
+✨ v5.0.0 — Add Character Feature Unlocked!
+
+═══════════════════════════════  
+🆕 New Features:
+✔️ Character Addition Panel is now live!
+🎯 Add full character data easily via a clean and responsive interface.
+
+🛡️ Smart Validation:
+✔️ Prevents duplicate characters (ignores relatives).
+✔️ Real-time feedback on success or duplication.
+
+🔧 Improvements:
+• Clean structure
+• Friendly error messages and better user experience.
+• Live Server & Express compatibility ensured.
+
+💡 Tip:
+Access it via `/char-uploader.html` in your root path or run `http://localhost:3000/add-character`
+
+═══════════════════════════════
+🚀 AniChaLibra just got more powerful!
