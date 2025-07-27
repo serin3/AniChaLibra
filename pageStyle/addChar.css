@@ -1,0 +1,91 @@
+body {
+    background-color: #1b1f2b;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+h2 {
+    color: #8f5cf4;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    background: #2b2b3d;
+    border: 1px solid #8f5cf4;
+    border-radius: 8px;
+    color: white;
+}
+
+button {
+    background: #8f5cf4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #a27cff;
+}
+
+.result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2b2b3d;
+    border-left: 6px solid;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.toast.success {
+    border-color: #28a745;
+}
+
+.toast.error {
+    border-color: #dc3545;
+}
+
+.toast.warning {
+    border-color: #ffc107;
+}
+
+.toast .close-btn {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 16px;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
