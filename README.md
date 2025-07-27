@@ -38,6 +38,25 @@ Example:
         }
     },
 ```
+
+## 🆕 Add Character Feature (v5.0.0)
+
+✨ New in version 5.0.0: You can now add your own characters to the local database using the new Add Character panel!
+
+## ✅ Features
+
+Simple web form for submitting a new character.
+
+Automatically prevents duplicates (by checking names).
+
+Instant integration into the local JSON file.
+
+Includes client-side validation and feedback messages.
+
+## 🔒 Note
+
+This feature is available only in local environments or via authorized tools. It doesn't affect the remote GitHub version unless synced manually.
+
 ## 🗂️ File Structure
 
 ```txt
@@ -71,3 +90,17 @@ All entries are manually curated to ensure quality and consistency.
 The `id` is a unique integer for every character.
 
 Character images are externally hosted (mostly from official sources or anime galleries).
+
+---
+
+## ➕ Add Character Panel
+
+To use the character-adding panel:
+
+1. Clone or download the project locally.
+2. Ensure you have `animeChDB.json` inside the correct `/data` directory.
+3. Run a local development server (e.g. with **Live Server**, Express, or similar).
+4. Open the **Add Character** page from the interface.
+5. Submissions will directly modify your local `animeChDB.json`.
+
+> ⚠️ Changes will not persist or work unless a proper local environment is active
