@@ -8,35 +8,39 @@
 
 AniChaLibra organizes anime characters in a clean and structured JSON format that includes:
 
-- 🧑‍🎤 **Character Details**: Name, age, gender, personality, image link...
+- 🧑‍🎤 **Character Details**: Name, Personality, image link
+- 📜 **Biological Information**: Age, Birth, Status...
 - 📺 **Anime Info**: Title, Character Role.
-- 👨‍👩‍👧 **Relatives**: Includes familial relationships (father, mother, sibling, etc.) if available.
+- 👨‍👩‍👧 **Relationships**: Includes familial relationships (father, mother, sibling, etc.) if available.
 
 Example:
 ```json
     {
-        "id": "1",
-        "character": {
-            "name": "Keigo Asano",
-            "age": "27",
-            "birth": "April-1",
-            "gender": "Male",
-            "race": "Human",
-            "status": "Alive",
-            "appearances": "Chapter 213",
-            "married": "no",
-            "personality": "Keigo is usually a goofy and extremely hyper-active boy, often using overly-dramatic movements and words to act out his feelings. He enjoys watching fireworks, playing role-playing games, and going to beach parties.",
-            "image": "https://th.bing.com/th/id/OIP.NjJ2tQeJrkK0u98BioVMFwAAAA?w=261&h=300&c=10&rs=1&bgcl=fffffe&r=0&o=6&pid=23.1"
-        },
-        "anime": {
-            "name": "Bleach",
-            "quote": "Did you guys hear a truck crashed into Ichigo's house!!!",
-            "role": "Supporting"
-        },
-        "relatives": {
-            "sister": "Mizuho Asano"
-        }
+    "id": "23",
+    "character": {
+      "name": "Rimuru Tempest",
+      "personality": "Rimuru is an eccentric and childish person by nature but this shouldn't be mistaken for immaturity and naivety. Underneath the surface, Rimuru is constantly analyzing, planning, and weighing the pros and cons of their actions, taking the smart move in the long term over more rash and emotional decisions",
+      "image": "https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/b/bf/Demon_Lord_Rimuru_Anime.png/revision/latest?cb=20220307101435"
     },
+    "biologicalInfo": {
+      "age": "5",
+      "birth": "Feb-20",
+      "gender": "Non-binary",
+      "race": "Slime",
+      "status": "Alive",
+      "martial_status": "single"
+    },
+    "anime": {
+      "name": "Tensei Shitara Slime Datta Ken",
+      "quote": "It's simple. I want to create a world where life is as convenient as I wish it to be. A comfortable world where everyone can laugh and enjoy their lives as much as possible. That's what I truly and honestly want",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "daughter": "Shinsha",
+      "partner": "Ciel"
+    }
+  }
 ```
 
 ## 🆕 Add Character Feature (v5.0.0)
