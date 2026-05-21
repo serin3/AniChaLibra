@@ -10,12 +10,17 @@
   <form id="charForm">
     <h3>Character</h3>
     <input name="name" placeholder="Name" required>
+    <textarea name="personality" placeholder="Personality"></textarea>
+    <input name="image" placeholder="Image URL">
+
+    <h3>Biological Info</h3>
     <input name="age" placeholder="Age">
     <input name="birth" placeholder="Birth (e.g. April-1)">
     <select name="gender">
       <option value="">-- Gender --</option>
       <option>Male</option>
       <option>Female</option>
+      <option>Non-binary</option>
     </select>
     <select name="race">
       <option value="">-- Race --</option>
@@ -23,6 +28,14 @@
       <option>Soul</option>
       <option>Goblin</option>
       <option>Devil</option>
+      <option>Angel</option>
+      <option>Demon</option>
+      <option>Half-Demon</option>
+      <option>Half-Angel</option>
+      <option>Half-Human</option>
+      <option>Slime</option>
+      <option>Animal</option>
+      <option>Spirit</option>
     </select>
     <select name="status">
       <option value="">-- Status --</option>
@@ -30,25 +43,29 @@
       <option>Dead</option>
       <option>Unknown</option>
     </select>
-    <input name="appearances" placeholder="Appearances (e.g. Chapter 213)">
-    <select name="married">
-      <option value="">-- Married --</option>
-      <option>yes</option>
-      <option>no</option>
+    <select name="marital_status">
+      <option value="">-- Marital Status --</option>
+      <option>married</option>
+      <option>single</option>
+      <option>complicated</option>
+      <option>in a relationship</option>
+      <option>engaged</option>
+      <option>taken</option>
+      <option>divorced</option>
+      <option>unknown</option>
     </select>
-    <textarea name="personality" placeholder="Personality"></textarea>
-    <input name="image" placeholder="Image URL">
 
     <h3>Anime</h3>
     <input name="animeName" placeholder="Anime Name" required>
     <input name="quote" placeholder="Quote">
+    <input name="appearances" placeholder="Appearances (e.g. Chapter 213)">
     <select name="role">
       <option value="">-- Role --</option>
       <option>Main</option>
       <option>Supporting</option>
     </select>
 
-    <h3>Relatives</h3>
+    <h3>Relationships</h3>
     <input name="father" placeholder="Father">
     <input name="mother" placeholder="Mother">
     <input name="sister" placeholder="Sister">
@@ -69,6 +86,35 @@
     <input name="adopt-uncle" placeholder="Adopted Uncle">
     <input name="adopt-grandfather" placeholder="Adopted Grandfather">
     <input name="adopt-grandmother" placeholder="Adopted Grandmother">
+    <input name="adopt-aunt" placeholder="Adopted Aunt">
+    <input name="adopt-nephew" placeholder="Adopted Nephew">
+    <input name="adopt-niece" placeholder="Adopted Niece">
+    <input name="adopt-cousin" placeholder="Adopted Cousin">
+    <input name="biological-father" placeholder="Biological Father">
+    <input name="biological-mother" placeholder="Biological Mother">
+    <input name="biological-son" placeholder="Biological Son">
+    <input name="biological-daughter" placeholder="Biological Daughter">
+    <input name="biological-sister" placeholder="Biological Sister">
+    <input name="biological-brother" placeholder="Biological Brother">
+    <input name="biological-uncle" placeholder="Biological Uncle">
+    <input name="biological-aunt" placeholder="Biological Aunt">
+    <input name="biological-grandfather" placeholder="Biological Grandfather">
+    <input name="biological-grandmother" placeholder="Biological Grandmother">
+    <input name="foster-father" placeholder="Foster Father">
+    <input name="foster-mother" placeholder="Foster Mother">
+    <input name="foster-son" placeholder="Foster Son">
+    <input name="foster-daughter" placeholder="Foster Daughter">
+    <input name="foster-sister" placeholder="Foster Sister">
+    <input name="foster-brother" placeholder="Foster Brother">
+    <input name="childhood-friend" placeholder="Childhood Friend">
+    <input name="partner" placeholder="Partner">
+    <input name="niece" placeholder="Niece">
+    <input name="cousin" placeholder="Cousin">
+    <input name="love-interest" placeholder="Love Interest">
+    <input name="rival" placeholder="Rival">
+    <input name="friend" placeholder="Friend">
+    <input name="boy-friends" placeholder="Boy Friends">
+    <input name="girl-friends" placeholder="Girl Friends">
     <input name="error" placeholder="Error [If unrecognized]">
 
     <button type="submit">➕ Add Character</button>
@@ -101,8 +147,16 @@
 
   const form = document.getElementById("charForm");
 
+  if (form) {
+    console.log('✅ تم تحميل النموذج بنجاح');
+  } else {
+    console.error('❌ لم يتم العثور على النموذج charForm');
+  }
+
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
+    console.log('📤 جاري إرسال البيانات...');
+    
     const formData = new FormData(form);
 
     function cleanFields(data) {
@@ -117,35 +171,47 @@
 
     const data = cleanFields(formData);
     const character = {};
+    const biologicalInfo = {};
     const anime = {};
-    const relatives = {};
+    const relationships = {};
 
     for (const key in data) {
-      if (["animeName", "quote", "role"].includes(key)) {
+      if (["animeName", "quote", "role", "appearances"].includes(key)) {
         if (key === "animeName") anime.name = data[key];
         else anime[key] = data[key];
       } else if ([
         "father", "mother", "sister", "brother", "wife", "husband", "son", "daughter",
         "uncle", "aunt", "grandfather", "grandmother", "nephew",
         "adopt-son", "adopt-daughter", "adopt-sister", "adopt-brother",
-        "adopt-uncle", "adopt-grandfather", "adopt-grandmother", "error"
+        "adopt-uncle", "adopt-grandfather", "adopt-grandmother", "error", "adopt-aunt", "adopt-nephew", "adopt-niece", "adopt-cousin",
+        "biological-father", "biological-mother", "biological-son", "biological-daughter", "biological-sister", "biological-brother", "biological-uncle", "biological-aunt", "biological-grandfather", "biological-grandmother",
+        "foster-father", "foster-mother", "foster-son", "foster-daughter", "foster-sister", "foster-brother", "childhood-friend", "niece", "cousin", "partner", "love-interest", "rival", "friend", "boy-friends", "girl-friends"
       ].includes(key)) {
-        relatives[key] = data[key];
+        relationships[key] = data[key];
+      } else if (["age", "birth", "gender", "race", "status", "marital_status"].includes(key)) {
+        biologicalInfo[key] = data[key];
       } else {
         character[key] = data[key];
       }
     }
 
-    const finalData = { character, anime, relatives };
+    const finalData = { character, biologicalInfo, anime, relationships };
+
+    console.log('📊 البيانات المرسلة:', finalData);
 
     try {
+      console.log('🔗 الاتصال بـ: http://localhost:3000/add-character');
       const res = await fetch("http://localhost:3000/add-character", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(finalData)
       });
 
+      console.log('📬 رد الخادم:', res.status);
+
       const json = await res.json();
+      console.log('📋 رسالة الخادم:', json);
+
       if (res.ok) {
         showToast(`✅ ${json.message}`, 'success');
         form.reset();
@@ -153,7 +219,9 @@
         showToast(`❌ ${json.message}`, 'warning');
       }
     } catch (err) {
-      showToast("❌ Error: Could not reach the server", 'error');
+      console.error('❌ خطأ الاتصال:', err);
+      showToast("❌ Error: Could not reach the server at http://localhost:3000", 'error');
+      showToast("تأكد من تشغيل الخادم (npm start أو node scripts/addCharacter.js)", 'error');
     }
   });
 </script>
