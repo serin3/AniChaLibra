@@ -1,22 +1,24 @@
 {
     "character": {
         "name": " ", 
-        "age": " ",
-        "birth": " ",
-        "gender": "Female | Male", 
-        "race": "Human | Soul | Goblin | Devil",
-        "status": "Alive | Dead | Unknown",
-        "appearances": "Chapter ",
-        "married": "yes | no",
         "personality": " ",
         "image": " "
     },
     "anime": {
         "name": "",
         "quote": "",
+        "appearances": "Chapter ",
         "role": "Main | Supporting"
     },
-    "relatives":  {
+    "biologicalInfo": {
+        "age": " ",
+        "birth": " ",
+        "gender": "Female | Male",
+        "race": "Human | Soul | Goblin | Devil | Angel | Demon | Half-Demon | Half-Angel | Half-Human | Slime | Animal",
+        "status": "Alive | Dead | Unknown",
+        "marital_status": "married | taken | complicated | in a relationship | engaged | single | divorced | unknown"
+    },
+    "relationships":  {
         "wife": "",
         "Husband": "",
         "son": "",
@@ -31,12 +33,34 @@
         "adopt-uncle": "",
         "adopt-grandfather": "",
         "adopt-grandmother": "",
+        "biological-son": "",
+        "biological-daughter": "",
+        "biological-sister": "",
+        "biological-brother": "",
+        "biological-uncle": "",
+        "biological-grandfather": "",
+        "biological-grandmother": "",
+        "maternal-son": "",
+        "maternal-daughter": "",
+        "maternal-sister": "",
+        "maternal-brother": "",
+        "maternal-uncle": "",
+        "maternal-grandfather": "",
+        "maternal-grandmother": "",
+        "maternal-father": "",
+        "cousin": "",
+        "niece": "",
         "father": "",
         "mother": "",
         "uncle": "",
         "aunt": "",
         "grandfather": "",
         "grandmother": "",
+        "childhood-friend": "",
+        "partner": "",
+        "love-interest": "",
+        "rival": "",
+        "friend": "",
         "error": " [ Only if it cannot be recognized ] "
     }
 }
