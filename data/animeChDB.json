@@ -779,5 +779,195 @@
       "daughter": "Lupumirina",
       "cousin": "Flora Sakutou"
     }
+  },
+  {
+    "id": "30",
+    "character": {
+      "name": "Jashin-chan",
+      "personality": "As a person, Jashin-chan has a whole set of bad traits like open selfishness, gluttony, arrogance or even immorality when she manipulates the kindness of Medusa or eats the bento that Yurine gave to pauper Pekora. And despite the fact that she regularly receives various punishments for her bad deeds, Jashin does not extract any lesson from this. She is an incompetent dimwit when she always attacks Yurine but easily backfired so easily",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/1/1d/Jashin-chan.png/revision/latest?cb=20180724144217"
+    },
+    "biologicalInfo": {
+      "age": "1000+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Serpent",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "Are you the one who summoned me? Heheh. ♪ That's right, I'm Jashin-chan. So what do you want with me, Human?",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "31",
+    "character": {
+      "name": "Yurine Hanazono",
+      "personality": "Despite the fact that Yurine seems rather cold or cynical, she has a fairly strict but caring personality. Thanks to this, she quickly finds a common language with other characters. As a protagonist, Yurine often acts as a kind of avatar of the audience. She sarcastically comments on what is happening around or being as a voice of reason that balances the foolishness and selfishness of Jashin-chan.",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/0/0f/Episode_Yurine_Hanazono.jpg/revision/latest/scale-to-width-down/1000?cb=20260309124056"
+    },
+    "biologicalInfo": {
+      "age": "19",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "If you try to kill me, I'll just have to kill you back. That's only fair, right?",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "32",
+    "character": {
+      "name": "Medusa",
+      "personality": "Medusa can be briefly described as the typical yamato nadeshiko or ideal wife, which is especially noticeable in her relationship with Jashin. She is emphatically polite and kind, exerting an exceptionally positive influence on everyone around her. When sufficiently angered, however, Medusa goes into \"Passive-Aggressive Mode\", in which her mood is eerily calm, and she speaks in a more polite dialect.",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/3/3e/Episode_Medusa.jpg/revision/latest/scale-to-width-down/1000?cb=20260309102009"
+    },
+    "biologicalInfo": {
+      "age": "1000+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Gorgon",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "If it's for Jashin-chan, I don't mind giving you all my money!",
+      "appearances": "Chapter 5",
+      "role": "Supporting"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "33",
+    "character": {
+      "name": "Pekora",
+      "personality": "Due to her destitution, Much of Pekora's spends a good deal of time focused on food and daily survival. Despite being an angel, she reluctantly accepts help from a certain group of strangely kind-hearted devils and a human girl named Yurine Hanazono. At first she feels ashamed of this and still looks to God for ultimate salvation, but when she learned that Heaven declared her a traitor and sent Pino to kill her, she opens up more to the idea of receiving charity from devils, and even - when she is in a position to do so - sometimes looks out for them when she feels they are in the right, calling out a fellow fallen angel Poporon for her plan to kill Persephone II.",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/2/23/Episode_Pekora.jpg/revision/latest?cb=20260309095656"
+    },
+    "biologicalInfo": {
+      "age": "1000+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Archangel",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "I may be starving, but an angel never bows down to devils!",
+      "appearances": "Chapter 14",
+      "role": "Supporting"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "34",
+    "character": {
+      "name": "Minos",
+      "personality": "Minos has shoulder-length blue hair, rose pink eyes, horns on her head, and has a tail. She wears a collar with a bell on it, a white jacket with black polka dots on it over a white t-shirt that says 100% Beef on it. As well as a short black skirt, long socks whereas the right sock has white and black stripes and the left is plain black. She also wears black and white shoes",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/2/2a/Episode_Minos.jpg/revision/latest/scale-to-width-down/1000?cb=20260309095025"
+    },
+    "biologicalInfo": {
+      "age": "1000+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Minotaur",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "Jashin-chan might be a pain sometimes, but she's still our friend!",
+      "appearances": "Chapter 38",
+      "role": "Supporting"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "35",
+    "character": {
+      "name": "Poporon",
+      "personality": "Although an angel, Poporon is cruel, harsh, selfish and brutal. She has no qualms in killing Pekora who is a fellow angel like her just so she can keep her position as a full-fledged angel. However, she seems rather inoffensive towards any other mortal humans and has also shown fears of Yurine's psychopathic and torturous personality towards Jashin-chan. Her time on Earth has been affecting her in a good way, especially after meeting with Minos and Persephone II. However out of pride, she can only pretend to be nice.",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/d/d6/Poporon.png/revision/latest?cb=20180724145220"
+    },
+    "biologicalInfo": {
+      "age": "1000+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Archangel",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "Pekola-sama was my senior, but now... I'm much better than her in every way!",
+      "appearances": "Chapter 41",
+      "role": "Supporting"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "36",
+    "character": {
+      "name": "Persephone II",
+      "personality": "Persephone II is very soft-spoken and naïve to human culture. She means well and tries to befriend whoever she meets. Although she eventually realizes that Jashin-chan is no-good at heart, she immediately tries to make friends with the fallen angel Poporon, without realizing that Poporon one day plans to kill her.",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/4/46/Episode_Persephone_II.jpg/revision/latest/scale-to-width-down/1000?cb=20260309095218"
+    },
+    "biologicalInfo": {
+      "age": "500+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Half-Angel",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "I came to the human realm to get stronger, but everyone here is so kind!",
+      "appearances": "Chapter 84",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "father": "Hades",
+      "mother": "Persephone"
+    }
+  },
+  {
+    "id": "37",
+    "character": {
+      "name": "Persephone",
+      "personality": "Persephone is a kindhearted individual. She cares deeply for children like they're her own. She doesn't take cheating very kindly when Jashin-chan cheated by sizing her 2 meters height (due to the rules that 2 meters height would fight a cyclops which is result that Jashin-chan is too weak against a cyclops due to malnourishment).",
+      "image": "https://static.wikia.nocookie.net/jashinchan/images/7/7e/Episode_Persephone.jpg/revision/latest?cb=20260310145216"
+    },
+    "biologicalInfo": {
+      "age": "10.000+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Fallen Angel",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Jashin-chan Dropkick",
+      "quote": "A ruler must be both kind and absolute. That is the true path of royalty",
+      "appearances": "Chapter 134",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "husband": "Hades",
+      "daughter": "Persephone II"
+    }
   }
 ]
