@@ -673,5 +673,111 @@
       "cousin": "Iori Kitahara, Shiori Kitahara",
       "boy-friends": "Iori Kitahara"
     }
+  },
+  {
+    "id": "26",
+    "character": {
+      "name": "Yaniko Satou",
+      "personality": "Yaniko Satou is a 21-year-old cat-eared beastgirl whose lifestyle is defined by extreme self-neglect and an almost incurable addiction to cigarettes — most of whatever she earns from day labor goes straight toward buying smokes",
+      "image": "https://static.wikia.nocookie.net/chainsmoker-cat/images/7/7f/Yani_Neko.webp/revision/latest?cb=20260715230418"
+    },
+    "biologicalInfo": {
+      "age": "21",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Beastman",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Chainsmoker Cat",
+      "quote": "it's nyau-tiful... Just like the smoke of a cigare-nya.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "sister": "Imoko Satou"
+    }
+  },
+  {
+    "id": "27",
+    "character": {
+      "name": "Imoko Satou",
+      "personality": "Unlike her self-destructive, chain-smoking sister, Imoko is a capable and sensible high school girl who approaches life with diligence and clear-headed rationality. Though she tends to be strict when keeping her sister in line, she genuinely cares deeply for her, and harbors a strong urge to look after those around her who struggle to take care of themselves.",
+      "image": "https://static.wikia.nocookie.net/chainsmoker-cat/images/9/91/403.webp/revision/latest?cb=20260725021743"
+    },
+    "biologicalInfo": {
+      "age": "15-18",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Beastman",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Chainsmoker Cat",
+      "quote": "Onee-chan, it's beautiful outside. The Milky Way is clearly visible today. I don't know what happened to you. You can call me anytime if you're having a hard time.",
+      "appearances": "Chapter 2",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "sister": "Yaniko Satou"
+    }
+  },
+  {
+    "id": "28",
+    "character": {
+      "name": "Machio Hiraku",
+      "personality": "Having lost his life to relentless overwork in his previous existence, he was reborn into a new world and blessed by a deity with an all-purpose farming tool and a robust, healthy body. Choosing to start from nothing in the peril-filled 'Forest of Death,' he cleared untamed land and ultimately founded 'Taiju Village,' a community where multiple races live side by side in harmony. As village chief, he leads his fellow villagers with a diligent and modest spirit, savoring the quiet rhythms of farm life while standing as a powerful guardian of his cherished home",
+      "image": "https://static.wikia.nocookie.net/isekai-nonbiri-nouka-manga-wiki/images/7/76/Hiraku_Machio_Anime_Full.png/revision/latest?cb=20230228052202"
+    },
+    "biologicalInfo": {
+      "age": "40",
+      "birth": "unknown",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Isekai Nonbiri Nouka",
+      "quote": "I want to be a farmer. I want to live a healthy life, working the land, and I want to be in a place where there aren't many people.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "wife": "Rurushi Ru, Tia, Ria, Ann, Hakuren, Sena, Fraurem Chrome, Lastismun, Gran Maria, Kuudel, Corone, Rize, Rafa, Ramurias, Suarukou, Suaruriu",
+      "son": "Alfred, Torain, Ririus, Riguru, Rata, Hiichirou, Hikaru, Kukulkan, Setto",
+      "daughter": "Tizel, Fraciabell, Sette, Lananun, Lupumirina, Aurora, Rose Maria, Laradel, Tormane, Himiko, Sakura, Ramna, Suarurina, Suarukona",
+      "adopt-daughter": "Ursa"
+    }
+  },
+  {
+    "id": "29",
+    "character": {
+      "name": "Rurushi Ru",
+      "personality": "Ru is an intellectual and resilient woman, deeply committed to her medical research and driven by curiosity for the unknown. Her personality blends sociability and the ability to form strong bonds with a competitive and determined spirit in combat, even if she can be somewhat disorganized in everyday life. At the same time, her emotional and affectionate side makes her approachable, valuing community life and family ties, which shapes her as a balanced figure between reason, strength, and sensitivity",
+      "image": "https://static.wikia.nocookie.net/isekai-nonbiri-nouka-manga-wiki/images/4/4c/Ru_Rurushi_Anime_Full.png/revision/latest?cb=20230228052202"
+    },
+    "biologicalInfo": {
+      "age": "500",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Vampire",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Isekai Nonbiri Nouka",
+      "quote": "I am a medical researcher, fascinated by the unknown—and I find your crops truly remarkable!",
+      "appearances": "Chapter 8",
+      "role": "Main"
+    },
+    "relationships": {
+      "husband": "Hiraku Machio",
+      "son": "Alfred",
+      "daughter": "Lupumirina",
+      "cousin": "Flora Sakutou"
+    }
   }
 ]
