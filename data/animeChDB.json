@@ -969,5 +969,215 @@
       "husband": "Hades",
       "daughter": "Persephone II"
     }
+  },
+  {
+    "id": "38",
+    "character": {
+      "name": "Natsu Dragneel",
+      "personality": "Natsu is carefree and reckless in nature, and, despite his consistent brawls with the other members of Fairy Tail, he is a fiercely loyal and protective friend. He is willing to go down fighting for his friends, regardless of how futile it might seem. Natsu has a straightforward mind, and often tackles issues with a \"hands on\" approach. His solution to problems often involve violence. Even when disrespected or faced with obvious hostility",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/c/ca/Natsu_X792.png/revision/latest?cb=20181111122101"
+    },
+    "biologicalInfo": {
+      "age": "17",
+      "birth": "July-7",
+      "gender": "Male",
+      "race": "Demon",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "Don't feel insecure just because you lost!! We are Fairy Tail! We're from the guild that doesn't know when to stop! We won't survive unless we keep running!",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "brother": "Zeref Dragneel",
+      "foster-father": "Igneel",
+      "foster-brother": "Ignia",
+      "foster-nephew": "Wed",
+      "nephew": "August"
+    }
+  },
+  {
+    "id": "39",
+    "character": {
+      "name": "Zeref Dragneel",
+      "personality": "In the modern era, Zeref seeks to isolate himself and is very calm, sincere, and conflicted. He wishes to die to atone for all the sins he has committed, and may commit in the future. He shows concern for others when he warns them not to come near him, knowing that they would die if they did. He is also somewhat emotionally fragile, as when he realizes that Natsu is not ready to kill him yet, he breaks down in tears. Zeref often kills with no prior incentive or knowledge.",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/d/d4/Zeref_aboard_Grimoire_Heart%27s_ship.png/revision/latest/scale-to-width-down/1000?cb=20120303104333"
+    },
+    "biologicalInfo": {
+      "age": "400+",
+      "birth": "July-19",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Dead",
+      "marital_status": "complicated"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "I'm sorry. It's not as though I want to steal anyone's life... but the world rejects me. I want to see you soon, Natsu.",
+      "appearances": "Chapter 200",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "brother": "Natsu Dragneel",
+      "son": "August",
+      "partner": "Mavis Vermilion"
+    }
+  },
+  {
+    "id": "40",
+    "character": {
+      "name": "Mavis Vermilion",
+      "personality": "Mavis is kind and protective of Fairy Tail. She cares, guides and protects the guild whenever it's possible. She seems to be quite cheerful as she's smiling and happy most of the time. Mavis can also be quite carefree and reckless, and this side of her is shown when she allowed Jellal Fernandes to participate in the Grand Magic Games as a part of Team Fairy Tail B, as long as it improved their chances of winning, despite the fact that if anyone found out about the ex-member of the Ten Wizard Saints and escaped convict, it could be disastrous to the guild. Another sign of her reckless nature is shown when she lent Fairy Glitter to Cana Alberona just to win the MPF event.",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/2/28/Mavis%27_looks.png/revision/latest?cb=20181119213321"
+    },
+    "biologicalInfo": {
+      "age": "118",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Dead",
+      "marital_status": "complicated"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "There is a wall that can't be destroyed with just power. However, there is a type of power that can destroy that wall. The Power of Feelings.",
+      "appearances": "Chapter 250",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "son": "August",
+      "partner": "Zeref Dragneel"
+    }
+  },
+  {
+    "id": "41",
+    "character": {
+      "name": "Lucy Heartfilia",
+      "personality": "Lucy takes exceptional pride in her appearance and is very confident in her sex appeal, often exuding a certain amount of vanity. Despite this superficial attitude, she is a clever, kind, and genuinely caring person. Lucy is passionate for literature and is in the process of writing her own novel about her adventures with Fairy Tail although she does not like telling anyone about it. She is a member of the Heartfilia family,",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/9/99/Volume_49_Lucy.png/revision/latest?cb=20150613214418"
+    },
+    "biologicalInfo": {
+      "age": "17",
+      "birth": "July-1",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "If...if someone here was hurt or died because of me, I think I'd suffer a lot like Loke. But it's okay, because if we all work together, we can overcome any trouble we might have, right?",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Jude Heartfilia",
+      "mother": "Layla Heartfilia",
+      "adopt-sister": "Gonzales",
+      "ancestor": "Anna Heartfilia, Tatsuya"
+    }
+  },
+  {
+    "id": "42",
+    "character": {
+      "name": "Erza Scarlet",
+      "personality": "Erza is a very strict person, often criticizing the bad behavior and habits of the other guild members, causing most of them to apologize, fearing that they might invoke her wrath. She is also very impatient, disliking people who don't answer her questions quickly enough. This, coupled with her own tragic childhood, caused many of her guildmates to avoid her due to her social awkwardness. However, she has a great sense of justice and pride in being a member of Fairy Tail.",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/c/c3/Erza%27s_picture.png/revision/latest/scale-to-width-down/1000?cb=20190929085837"
+    },
+    "biologicalInfo": {
+      "age": "19",
+      "birth": "April-7",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "I've heard you've been causing trouble again. Even if Master forgives you, I won't.",
+      "appearances": "Chapter 10",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Rung",
+      "mother": "Irene Belserion"
+    }
+  },
+  {
+    "id": "43",
+    "character": {
+      "name": "Gray Fullbuster",
+      "personality": "Gray has a laid-back personality, but will get serious when the time calls for it. He and Natsu have a friendly rivalry, and while they can often be seen fighting one another verbally or physically, the two are actually quite concerned about each other",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/c/c6/Gray_in_Alvarez_Empire_arc.png/revision/latest/scale-to-width-down/1000?cb=20190519091455"
+    },
+    "biologicalInfo": {
+      "age": "18",
+      "birth": "February-13",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "Everything doesn't have to be decided by life and death. Just think about the future for once.",
+      "appearances": "Chapter 2",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Silver Fullbuster",
+      "mother": "Mika"
+    }
+  },
+  {
+    "id": "44",
+    "character": {
+      "name": "Wendy Marvell",
+      "personality": "Wendy is a very shy and polite girl. She is always accompanied by her Exceed companion, Carla, as they have a very close relationship. She is very eager to try and make friends. Wendy also cares greatly for her guild members, and even suggested going to the home-town of the Exceed to try and get them to evacuate when they were under threat",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/5/5c/Wendy%27s_image.png/revision/latest?cb=20150703183824"
+    },
+    "biologicalInfo": {
+      "age": "12",
+      "birth": "February-27",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "The fact that I'm standing here now means I'm also prepared to fight on behalf of my Guild. I don't need your pity. Until I've fallen and become unable to move any longer, please come at me with all your strength!",
+      "appearances": "Chapter 132",
+      "role": "Main"
+    },
+    "relationships": {
+      "foster-mother": "Grandeeney"
+    }
+  },
+  {
+    "id": "45",
+    "character": {
+      "name": "Juvia Lockser",
+      "personality": "Juvia is first introduced portraying an emotionless face, seeming more secluded from everyone, including members of the Phantom Lord Guild. After she joins Fairy Tail, she develops a happier demeanor. She is obsessed with Gray Fullbuster to the point that her jealousy and paranoia considers anyone who remotely gets close to him a rival even if they show no interest. when Meredy threatened to end him, Juvia loses her calm demeanor and entered a somewhat satanic-appearing state that frightens Meredy and even Erza",
+      "image": "https://static.wikia.nocookie.net/fairytail/images/f/ff/Juvia_Lockser_profile.png/revision/latest?cb=20140426102005"
+    },
+    "biologicalInfo": {
+      "age": "17",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Fairy Tail",
+      "quote": "A rival in love, Juvia cannot forgive this, Juvia will not forgive Lucy!",
+      "appearances": "Chapter 48",
+      "role": "Supporting"
+    },
+    "relationships": {}
   }
 ]
