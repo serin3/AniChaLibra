@@ -113,16 +113,19 @@
     <input name="foster-daughter" placeholder="Foster Daughter">
     <input name="foster-sister" placeholder="Foster Sister">
     <input name="foster-brother" placeholder="Foster Brother">
+    <input name="foster-nephew" placeholder="Foster Nephew">
+    <input name="foster-niece" placeholder="Foster Niece">
     <input name="childhood-friend" placeholder="Childhood Friend">
     <input name="partner" placeholder="Partner">
     <input name="niece" placeholder="Niece">
+    <input name="ancestor" placeholder="Ancestor">
     <input name="cousin" placeholder="Cousin">
     <input name="love-interest" placeholder="Love Interest">
     <input name="rival" placeholder="Rival">
     <input name="friend" placeholder="Friend">
     <input name="boy-friends" placeholder="Boy Friends">
     <input name="girl-friends" placeholder="Girl Friends">
-    <input name="error" placeholder="Error [If unrecognized]">
+    <input name="error" placeholder="Error [If unrecognized]" disabled>
 
     <button type="submit">➕ Add Character</button>
   </form>
@@ -188,11 +191,11 @@
         else anime[key] = data[key];
       } else if ([
         "father", "mother", "sister", "brother", "wife", "husband", "son", "daughter",
-        "uncle", "aunt", "grandfather", "grandmother", "nephew",
+        "uncle", "aunt", "grandfather", "grandmother", "nephew", "niece",
         "adopt-son", "adopt-daughter", "adopt-sister", "adopt-brother",
         "adopt-uncle", "adopt-grandfather", "adopt-grandmother", "error", "adopt-aunt", "adopt-nephew", "adopt-niece", "adopt-cousin",
         "biological-father", "biological-mother", "biological-son", "biological-daughter", "biological-sister", "biological-brother", "biological-uncle", "biological-aunt", "biological-grandfather", "biological-grandmother",
-        "foster-father", "foster-mother", "foster-son", "foster-daughter", "foster-sister", "foster-brother", "childhood-friend", "niece", "cousin", "partner", "love-interest", "rival", "friend", "boy-friends", "girl-friends"
+        "foster-father", "foster-mother", "foster-son", "foster-daughter", "foster-sister", "foster-brother", "foster-nephew", "foster-niece", "childhood-friend", "niece", "ancestor", "cousin", "partner", "love-interest", "rival", "friend", "boy-friends", "girl-friends"
       ].includes(key)) {
         relationships[key] = data[key];
       } else if (["age", "birth", "gender", "race", "status", "marital_status"].includes(key)) {
