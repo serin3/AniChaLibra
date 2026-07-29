@@ -1179,5 +1179,107 @@
       "role": "Supporting"
     },
     "relationships": {}
+  },
+  {
+    "id": "46",
+    "character": {
+      "name": "Son Goku",
+      "personality": "Originally, as an infant Saiyan, Goku was very timid, constantly crying for attention. Goku was then programmed with intense hostility to carry out his mission of eradicating all sentient life on Earth. When found by Grandpa Gohan, he was unruly, savage, and aggressive, wanting nothing to do with the elder. However, after the head injury that caused him to lose his instinctual aggression, Goku became well-known for the energetic, kindhearted, pure heart and caring personality traits he inherited from his mother Gine.",
+      "image": "https://static.wikia.nocookie.net/dragonball/images/b/ba/Goku_anime_profile.png/revision/latest?cb=20250723190513"
+    },
+    "biologicalInfo": {
+      "age": "Unknown",
+      "birth": "Age 737",
+      "gender": "Male",
+      "race": "Saiyan",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Dragon Ball",
+      "quote": "No, see, I don't think of it like I'm saving the world. The fact is, it's because I'm usually trying to challenge the strongest warriors I can find. That's how this tournament happened, too. But I can't bear the thought of innocent lives getting wiped out just because I want to fight the best. So, I'll do what I can for them.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Bardock",
+      "mother": "Gine",
+      "brother": "Raditz",
+      "adopted-grandfather": "Grandpa Gohan",
+      "wife": "Chi-Chi",
+      "father-in-law": "Ox-King",
+      "son": "Gohan, Goten",
+      "daughter-in-law": "Videl",
+      "granddaughter": "Pan",
+      "descendant": "Goku Jr., Beat, Youth"
+    }
+  },
+  {
+    "id": "47",
+    "character": {
+      "name": "Chi-Chi",
+      "personality": "As a child, Chi-Chi was very shy and sweet. She often thought about who she would marry. Despite being the daughter of the Ox-King, known for his fearsome reputation, Chi-Chi is portrayed as his complete opposite, as she was shown to be of pure heart by being able to ride the Flying Nimbus. In battle, she is often frightened and defeats her opponents while crying",
+      "image": "https://static.wikia.nocookie.net/dragonball/images/e/e2/Chi-Chi_DBZ_Ep_04_001.png/revision/latest?cb=20201226004235"
+    },
+    "biologicalInfo": {
+      "age": "Unknown",
+      "birth": "November 5, Age 737",
+      "gender": "Female",
+      "race": "Human-type Earthling",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Dragon Ball",
+      "quote": "Listen, all I'm asking you two to do is get your driver's license, it's not like I'm asking you to save the world.",
+      "appearances": "Chapter 11",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "father": "Ox-King",
+      "mother": "Ox-Queen",
+      "husband": "Goku",
+      "father-in-law": "Bardock",
+      "mother-in-law": "Gine",
+      "brother-in-law": "Raditz",
+      "son": "Gohan, Goten",
+      "daughter-in-law": "Videl",
+      "granddaughter": "Pan",
+      "descendant": "Goku Jr"
+    }
+  },
+  {
+    "id": "48",
+    "character": {
+      "name": "Bulma",
+      "personality": "Bulma has a temperamental personality while being very tomboyish and girly at the same time. While known for her extreme intellect, Bulma is quite spoiled and vain, using her beauty as an excuse for doing and getting whatever she wants; this sort of behavior seemingly prevented her from being able to ride the Flying Nimbus. While in stressful conditions, she becomes frightened easily and gets angry toward everyone, including her allies",
+      "image": "https://static.wikia.nocookie.net/dragonball/images/2/26/Bulma_manga.png/revision/latest/scale-to-width-down/1000?cb=20250527102130"
+    },
+    "biologicalInfo": {
+      "age": "Unknown",
+      "birth": "August 18, Age 733",
+      "gender": "Female",
+      "race": "Human-type Earthling",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Dragon Ball",
+      "quote": "Flying through space and protecting the galaxy does sound like a good time. But when you're married to Vegeta and mom to a boy like Trunks, you don't look back. I'm perfectly content with how my life is unfolded.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Dr. Brief",
+      "mother": "Bikini",
+      "sister": "Tights",
+      "father-in-law": "King Vegeta",
+      "husband": "Vegeta",
+      "brother-in-law": "Tarble",
+      "sister-in-law": "Gure",
+      "son": "Trunks",
+      "daughter": "Bulla",
+      "descendant": "Bulma Leigh, Vegeta Jr., Youth"
+    }
   }
 ]
