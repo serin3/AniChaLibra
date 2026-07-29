@@ -18,7 +18,8 @@ h3 {
 
 input,
 textarea,
-select {
+select,
+button {
     width: 100%;
     padding: 8px;
     margin: 6px 0;
@@ -26,6 +27,75 @@ select {
     border: 1px solid #8f5cf4;
     border-radius: 8px;
     color: white;
+    box-sizing: border-box;
+}
+
+.relationship-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.relationship-controls input {
+    flex: 1 1 180px;
+    min-width: 140px;
+}
+
+.relationship-controls button {
+    flex: 0 0 auto;
+    width: auto;
+    white-space: nowrap;
+}
+
+.relationship-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(143, 92, 244, 0.3);
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-top: 8px;
+}
+
+.remove-relationship-btn {
+    background: transparent;
+    border: none;
+    color: #ff7b7b;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+    margin: 0;
+    padding: 0 4px;
+}
+
+.race-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.race-field select {
+    cursor: pointer;
+    padding-right: 36px;
+}
+
+.custom-race-wrapper {
+    display: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #cdb2ff;
+    box-shadow: 0 0 0 2px rgba(141, 92, 244, 0.25);
+}
+
+option[value="custom"] {
+    color: #8f5cf4;
+    font-weight: bold;
 }
 
 button {
