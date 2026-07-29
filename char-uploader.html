@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Add Anime Character</title>
   <link rel="stylesheet" href="/pageStyle/addChar.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 <body>
   <h2>Add New Character</h2>
@@ -22,28 +23,34 @@
       <option>Female</option>
       <option>Non-binary</option>
     </select>
-    <select name="race">
-      <option value="">-- Race --</option>
-      <option>Human</option>
-      <option>Soul</option>
-      <option>Goblin</option>
-      <option>Devil</option>
-      <option>Angel</option>
-      <option>Demon</option>
-      <option>Half-Demon</option>
-      <option>Half-Angel</option>
-      <option>Half-Human</option>
-      <option>Slime</option>
-      <option>Animal</option>
-      <option>Spirit</option>
-      <option>Vampire</option>
-      <option>Beastman</option>
-      <option>Serpent</option>
-      <option>Minotaur</option>
-      <option>Gorgon</option>
-      <option>Archangel</option>
-      <option>Fallen Angel</option>
-    </select>
+    <div class="race-field">
+      <select name="race" id="raceSelect">
+        <option value="">-- Race --</option>
+        <option value="custom">-- [Custom Race...Click Here] --</option>
+        <option>Human</option>
+        <option>Soul</option>
+        <option>Goblin</option>
+        <option>Devil</option>
+        <option>Angel</option>
+        <option>Demon</option>
+        <option>Half-Demon</option>
+        <option>Half-Angel</option>
+        <option>Half-Human</option>
+        <option>Slime</option>
+        <option>Animal</option>
+        <option>Spirit</option>
+        <option>Vampire</option>
+        <option>Beastman</option>
+        <option>Serpent</option>
+        <option>Minotaur</option>
+        <option>Gorgon</option>
+        <option>Archangel</option>
+        <option>Fallen Angel</option>
+      </select>
+      <div class="custom-race-wrapper" id="raceCustomWrapper">
+        <input name="raceCustom" id="raceCustom" placeholder="Enter custom race">
+      </div>
+    </div>
     <select name="status">
       <option value="">-- Status --</option>
       <option>Alive</option>
@@ -73,61 +80,72 @@
     </select>
 
     <h3>Relationships</h3>
-    <input name="father" placeholder="Father">
-    <input name="mother" placeholder="Mother">
-    <input name="sister" placeholder="Sister">
-    <input name="brother" placeholder="Brother">
-    <input name="wife" placeholder="Wife">
-    <input name="husband" placeholder="Husband">
-    <input name="son" placeholder="Son">
-    <input name="daughter" placeholder="Daughter">
-    <input name="uncle" placeholder="Uncle">
-    <input name="aunt" placeholder="Aunt">
-    <input name="grandfather" placeholder="Grandfather">
-    <input name="grandmother" placeholder="Grandmother">
-    <input name="nephew" placeholder="Nephew">
-    <input name="adopt-son" placeholder="Adopted Son">
-    <input name="adopt-daughter" placeholder="Adopted Daughter">
-    <input name="adopt-sister" placeholder="Adopted Sister">
-    <input name="adopt-brother" placeholder="Adopted Brother">
-    <input name="adopt-uncle" placeholder="Adopted Uncle">
-    <input name="adopt-grandfather" placeholder="Adopted Grandfather">
-    <input name="adopt-grandmother" placeholder="Adopted Grandmother">
-    <input name="adopt-aunt" placeholder="Adopted Aunt">
-    <input name="adopt-nephew" placeholder="Adopted Nephew">
-    <input name="adopt-niece" placeholder="Adopted Niece">
-    <input name="adopt-cousin" placeholder="Adopted Cousin">
-    <input name="biological-father" placeholder="Biological Father">
-    <input name="biological-mother" placeholder="Biological Mother">
-    <input name="biological-son" placeholder="Biological Son">
-    <input name="biological-daughter" placeholder="Biological Daughter">
-    <input name="biological-sister" placeholder="Biological Sister">
-    <input name="biological-brother" placeholder="Biological Brother">
-    <input name="biological-uncle" placeholder="Biological Uncle">
-    <input name="biological-aunt" placeholder="Biological Aunt">
-    <input name="biological-grandfather" placeholder="Biological Grandfather">
-    <input name="biological-grandmother" placeholder="Biological Grandmother">
-    <input name="foster-father" placeholder="Foster Father">
-    <input name="foster-mother" placeholder="Foster Mother">
-    <input name="foster-son" placeholder="Foster Son">
-    <input name="foster-daughter" placeholder="Foster Daughter">
-    <input name="foster-sister" placeholder="Foster Sister">
-    <input name="foster-brother" placeholder="Foster Brother">
-    <input name="foster-nephew" placeholder="Foster Nephew">
-    <input name="foster-niece" placeholder="Foster Niece">
-    <input name="childhood-friend" placeholder="Childhood Friend">
-    <input name="partner" placeholder="Partner">
-    <input name="niece" placeholder="Niece">
-    <input name="ancestor" placeholder="Ancestor">
-    <input name="cousin" placeholder="Cousin">
-    <input name="love-interest" placeholder="Love Interest">
-    <input name="rival" placeholder="Rival">
-    <input name="friend" placeholder="Friend">
-    <input name="boy-friends" placeholder="Boy Friends">
-    <input name="girl-friends" placeholder="Girl Friends">
-    <input name="error" placeholder="Error [If unrecognized]" disabled>
+    <div class="relationship-controls">
+      <input id="relationshipType" placeholder="Relationship type" list="relationship-types">
+      <datalist id="relationship-types">
+        <option value="Father"></option>
+        <option value="Mother"></option>
+        <option value="Sister"></option>
+        <option value="Brother"></option>
+        <option value="Wife"></option>
+        <option value="Husband"></option>
+        <option value="Son"></option>
+        <option value="Daughter"></option>
+        <option value="Uncle"></option>
+        <option value="Aunt"></option>
+        <option value="Grandfather"></option>
+        <option value="Grandmother"></option>
+        <option value="Grandson"></option>
+        <option value="Granddaughter"></option>
+        <option value="Nephew"></option>
+        <option value="Niece"></option>
+        <option value="Descendant"></option>
+        <option value="Potential Descendant"></option>
+        <option value="Adopted Son"></option>
+        <option value="Adopted Daughter"></option>
+        <option value="Adopted Sister"></option>
+        <option value="Adopted Brother"></option>
+        <option value="Adopted Uncle"></option>
+        <option value="Adopted Aunt"></option>
+        <option value="Adopted Grandmother"></option>
+        <option value="Adopted Grandfather"></option> 
+        <option value="Biological Father"></option>
+        <option value="Biological Mother"></option>
+        <option value="Biological Son"></option>
+        <option value="Biological Daughter"></option>
+        <option value="Biological Sister"></option>
+        <option value="Biological Brother"></option>
+        <option value="Foster Father"></option>
+        <option value="Foster Mother"></option>
+        <option value="Foster Son"></option>
+        <option value="Foster Daughter"></option>
+        <option value="Foster Sister"></option>
+        <option value="Foster Brother"></option>
+        <option value="Foster Nephew"></option>
+        <option value="Foster Niece"></option>
+        <option value="Childhood Friend"></option>
+        <option value="Partner"></option>
+        <option value="Ancestor"></option>
+        <option value="Cousin"></option>
+        <option value="Love Interest"></option>
+        <option value="Rival"></option>
+        <option value="Friend"></option>
+        <option value="Father In Law"></option>
+        <option value="Mother In Law"></option>
+        <option value="Brother In Law"></option>
+        <option value="Sister In Law"></option>
+        <option value="Daughter In Law"></option>
+        <option value="Son In Law"></option>
+        <option value="Boy Friends"></option>
+        <option value="Girl Friends"></option>
 
-    <button type="submit">➕ Add Character</button>
+      </datalist>
+      <input id="relationshipValue" placeholder="Name">
+      <button type="button" id="addRelationshipBtn"><i class="fa-solid fa-plus"></i> Add Relationship</button>
+    </div>
+    <div id="relationshipList"></div>
+
+    <button type="submit"><i class="fa-solid fa-plus"></i> Add Character</button>
   </form>
 
   <div class="result" id="result" style="display:none;"></div>
@@ -156,6 +174,73 @@
   }
 
   const form = document.getElementById("charForm");
+  const raceSelect = document.getElementById("raceSelect");
+  const raceCustomWrapper = document.getElementById("raceCustomWrapper");
+  const raceCustomInput = document.getElementById("raceCustom");
+  const addRelationshipBtn = document.getElementById("addRelationshipBtn");
+  const relationshipTypeInput = document.getElementById("relationshipType");
+  const relationshipValueInput = document.getElementById("relationshipValue");
+  const relationshipList = document.getElementById("relationshipList");
+  const relationshipEntries = [];
+
+  function toggleRaceCustomInput() {
+    if (!raceSelect || !raceCustomWrapper || !raceCustomInput) return;
+
+    const showCustom = raceSelect.value === "custom";
+    raceCustomWrapper.style.display = showCustom ? "block" : "none";
+
+    if (!showCustom) {
+      raceCustomInput.value = "";
+    }
+  }
+
+  if (raceSelect) {
+    raceSelect.addEventListener("change", toggleRaceCustomInput);
+    toggleRaceCustomInput();
+  }
+
+  function renderRelationships() {
+    if (!relationshipList) return;
+    relationshipList.innerHTML = "";
+
+    relationshipEntries.forEach((entry, index) => {
+      const row = document.createElement("div");
+      row.className = "relationship-row";
+      row.innerHTML = `
+        <span>${entry.type}: ${entry.value}</span>
+        <button type="button" class="remove-relationship-btn" data-index="${index}"><i class="fa-solid fa-xmark"></i></button>
+      `;
+      relationshipList.appendChild(row);
+    });
+  }
+
+  if (addRelationshipBtn) {
+    addRelationshipBtn.addEventListener("click", () => {
+      const type = relationshipTypeInput?.value.trim();
+      const value = relationshipValueInput?.value.trim();
+
+      if (!type || !value) {
+        showToast("⚠️ Please enter both relationship type and name", "warning");
+        return;
+      }
+
+      relationshipEntries.push({ type, value });
+      relationshipTypeInput.value = "";
+      relationshipValueInput.value = "";
+      renderRelationships();
+    });
+  }
+
+  if (relationshipList) {
+    relationshipList.addEventListener("click", (e) => {
+      const removeBtn = e.target.closest(".remove-relationship-btn");
+      if (!removeBtn) return;
+
+      const index = Number(removeBtn.dataset.index);
+      relationshipEntries.splice(index, 1);
+      renderRelationships();
+    });
+  }
 
   if (form) {
     console.log('✅ تم تحميل النموذج بنجاح');
@@ -180,24 +265,25 @@
     }
 
     const data = cleanFields(formData);
+
+    if (data.race === "custom" && data.raceCustom) {
+      data.race = data.raceCustom;
+    }
+    delete data.raceCustom;
+
     const character = {};
     const biologicalInfo = {};
     const anime = {};
     const relationships = {};
 
+    relationshipEntries.forEach((entry) => {
+      relationships[entry.type.toLowerCase().replace(/\s+/g, "-")] = entry.value;
+    });
+
     for (const key in data) {
       if (["animeName", "quote", "role", "appearances"].includes(key)) {
         if (key === "animeName") anime.name = data[key];
         else anime[key] = data[key];
-      } else if ([
-        "father", "mother", "sister", "brother", "wife", "husband", "son", "daughter",
-        "uncle", "aunt", "grandfather", "grandmother", "nephew", "niece",
-        "adopt-son", "adopt-daughter", "adopt-sister", "adopt-brother",
-        "adopt-uncle", "adopt-grandfather", "adopt-grandmother", "error", "adopt-aunt", "adopt-nephew", "adopt-niece", "adopt-cousin",
-        "biological-father", "biological-mother", "biological-son", "biological-daughter", "biological-sister", "biological-brother", "biological-uncle", "biological-aunt", "biological-grandfather", "biological-grandmother",
-        "foster-father", "foster-mother", "foster-son", "foster-daughter", "foster-sister", "foster-brother", "foster-nephew", "foster-niece", "childhood-friend", "niece", "ancestor", "cousin", "partner", "love-interest", "rival", "friend", "boy-friends", "girl-friends"
-      ].includes(key)) {
-        relationships[key] = data[key];
       } else if (["age", "birth", "gender", "race", "status", "marital_status"].includes(key)) {
         biologicalInfo[key] = data[key];
       } else {
@@ -225,6 +311,10 @@
       if (res.ok) {
         showToast(`✅ ${json.message}`, 'success');
         form.reset();
+        relationshipEntries.length = 0;
+        renderRelationships();
+        relationshipTypeInput.value = "";
+        relationshipValueInput.value = "";
       } else {
         showToast(`❌ ${json.message}`, 'warning');
       }
