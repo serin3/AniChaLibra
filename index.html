@@ -4,13 +4,26 @@
   <meta charset="UTF-8" />
   <title>AniChaLibra Search</title>
   <link rel="stylesheet" href="/pageStyle/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div class="container">
     <h1 style="text-align: center">AniChaLibra</h1>
     <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Search character..." />
-        <button id="searchBtn">Search</button>
+      <form id="searchForm" class="search-form" onsubmit="document.getElementById('searchBtn').click(); return false;">
+        <div class="search-row">
+          <div class="search-select">
+            <select id="searchType" aria-label="Search type">
+              <option value="character">Search by character</option>
+              <option value="anime">Search by anime</option>
+            </select>
+          </div>
+          <div class="search-input-group">
+            <input type="text" id="searchInput" placeholder="Search character..." />
+            <button id="searchBtn" type="submit" aria-label="Search"><i class="fa-solid fa-search search-icon"></i></button>
+          </div>
+        </div>
+      </form>
     </div>
     <div id="results"></div>
   </div>
