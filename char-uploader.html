@@ -66,6 +66,7 @@
       <option>engaged</option>
       <option>taken</option>
       <option>divorced</option>
+      <option>estranged</option>
       <option>unknown</option>
     </select>
 
@@ -89,10 +90,14 @@
         <option value="Brother"></option>
         <option value="Wife"></option>
         <option value="Husband"></option>
+        <option value="Ex Husband"></option>
+        <option value="Ex Wife"></option>
         <option value="Son"></option>
         <option value="Daughter"></option>
         <option value="Uncle"></option>
         <option value="Aunt"></option>
+        <option value="Cousin"></option>
+        <option value="Cousin In Law"></option>
         <option value="Grandfather"></option>
         <option value="Grandmother"></option>
         <option value="Grandson"></option>
@@ -123,10 +128,21 @@
         <option value="Foster Brother"></option>
         <option value="Foster Nephew"></option>
         <option value="Foster Niece"></option>
+        <option value="Step Father"></option>
+        <option value="Step Mother"></option>
+        <option value="Step Son"></option>
+        <option value="Step Daughter"></option>
+        <option value="Step Sister"></option>
+        <option value="Step Brother"></option>
+        <option value="Maternal Grandfather"></option>
+        <option value="Maternal Grandmother"></option>
+        <option value="Paternal Grandfather"></option>
+        <option value="Paternal Grandmother"></option>
         <option value="Childhood Friend"></option>
         <option value="Partner"></option>
         <option value="Ancestor"></option>
         <option value="Cousin"></option>
+        <option value="Cousin In Law"></option>
         <option value="Love Interest"></option>
         <option value="Rival"></option>
         <option value="Friend"></option>
@@ -183,6 +199,10 @@
   const relationshipList = document.getElementById("relationshipList");
   const relationshipEntries = [];
 
+  function normalizeRelationshipKey(type) {
+    return type.toLowerCase().replace(/\s+/g, "-");
+  }
+
   function toggleRaceCustomInput() {
     if (!raceSelect || !raceCustomWrapper || !raceCustomInput) return;
 
@@ -224,7 +244,14 @@
         return;
       }
 
-      relationshipEntries.push({ type, value });
+      const existingEntry = relationshipEntries.find((entry) => normalizeRelationshipKey(entry.type) === normalizeRelationshipKey(type));
+
+      if (existingEntry) {
+        existingEntry.value = existingEntry.value ? `${existingEntry.value}, ${value}` : value;
+      } else {
+        relationshipEntries.push({ type, value });
+      }
+
       relationshipTypeInput.value = "";
       relationshipValueInput.value = "";
       renderRelationships();
@@ -277,7 +304,12 @@
     const relationships = {};
 
     relationshipEntries.forEach((entry) => {
-      relationships[entry.type.toLowerCase().replace(/\s+/g, "-")] = entry.value;
+      const key = normalizeRelationshipKey(entry.type);
+      if (!relationships[key]) {
+        relationships[key] = entry.value;
+      } else {
+        relationships[key] = `${relationships[key]}, ${entry.value}`;
+      }
     });
 
     for (const key in data) {
