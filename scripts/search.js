@@ -12,10 +12,27 @@ function searchCharacter(name, data) {
     );
 }
 
+function searchAnime(name, data) {
+    const cleanName = cleanString(name);
+    return data.filter(entry =>
+        cleanString(entry.anime.name).includes(cleanName)
+    );
+}
+
+document.getElementById('searchType').addEventListener('change', (event) => {
+    const input = document.getElementById('searchInput');
+    input.placeholder = event.target.value === 'anime'
+        ? 'Search by anime...'
+        : 'Search character...';
+});
+
 document.getElementById("searchBtn").onclick = async () => {
     const name = document.getElementById("searchInput").value.trim();
+    const type = document.getElementById('searchType').value;
     const data = await fetchData();
-    const results = searchCharacter(name, data);
+    const results = type === 'anime'
+        ? searchAnime(name, data)
+        : searchCharacter(name, data);
 
     const container = document.getElementById("results");
     container.innerHTML = "";
