@@ -1,0 +1,10 @@
+✨ v6.8.0 — Optimized!
+
+═══════════════════════════════  
+🔎 The search function has been improved:
+It is now possible to search for an anime or a character. While the character search option remains the same, the anime search option now displays all related characters
+
+🛠 Character Information Updated:
+The character's **Keigo Asano** from **Bleach** image has been updated
+═══════════════════════════════
+🚀 AniChaLibra just got more powerful!
