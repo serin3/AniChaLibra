@@ -48,7 +48,7 @@
     "relationships": {
       "wife": "Rukia Kuchiki",
       "daughter": "Ichika Abarai",
-      "brother": "Byakuya Kuchiki (in-law)"
+      "brother-in-law": "Byakuya Kuchiki"
     }
   },
   {
@@ -76,8 +76,8 @@
       "adopt-sister": "Rukia Kuchiki",
       "niece": "Ichika Abarai",
       "grandfather": "Ginrei Kuchiki",
-      "father": "Sōjun Kuchiki (deceased)",
-      "wife": "Hisana Kuchiki (deceased)"
+      "father": "Sōjun Kuchiki",
+      "wife": "Hisana Kuchiki"
     }
   },
   {
@@ -104,8 +104,8 @@
     "relationships": {
       "wife": "Orihime Inoue",
       "son": "Kazui Kurosaki",
-      "brother": "Sora Inoue (in-law)",
-      "sister": "Karin Kurosaki - Yuzu Korosaki",
+      "brother-in-law": "Sora Inoue",
+      "sister": "Karin Kurosaki, Yuzu Kurosaki",
       "father": "Isshin Kurosaki",
       "mother": "Masaki Kurosaki"
     }
@@ -134,7 +134,7 @@
     "relationships": {
       "father": "Ichigo Kurosaki",
       "mother": "Orihime Inoue",
-      "aunt": "Karin Kurosaki - Yuzu Korosaki",
+      "aunt": "Karin Kurosaki, Yuzu Korosaki",
       "grandfather": "Isshin Kurosaki",
       "grandmother": "Masaki Kurosaki"
     }
@@ -160,9 +160,7 @@
       "role": "Supporting",
       "appearances": "Chapter 251"
     },
-    "relationships": {
-      "error": "unknown Relatives"
-    }
+    "relationships": {}
   },
   {
     "id": "7",
@@ -215,7 +213,8 @@
     },
     "relationships": {
       "brother": "Ichigo Kurosaki",
-      "sister": "Yuzu Korosaki (twin) - Orihime Inoue (in-law)",
+      "sister": "Yuzu Kurosaki",
+      "sister-in-law": "Orihime Inoue",
       "nephew": "Kazui Kurosaki",
       "father": "Isshin Kurosaki",
       "mother": "Masaki Kurosaki"
@@ -271,9 +270,9 @@
       "husband": "Ichigo Korosaki",
       "son": "Kazui Kurosaki",
       "brother": "Sora Inoue",
-      "sister": "Karin Kurosaki (in-law) - Yuzu Kurosaki (in-law)",
-      "father": "Isshin Kurosaki (in-law)",
-      "mother": "Masaki Kurosaki (in-law)"
+      "sister-in-law": "Karin Kurosaki, Yuzu Kurosaki",
+      "father-in-law": "Isshin Kurosaki",
+      "mother-in-law": "Masaki Kurosaki"
     }
   },
   {
@@ -286,7 +285,7 @@
     "biologicalInfo": {
       "age": "unknown",
       "birth": "September-29",
-      "gender": "Female | Male",
+      "gender": "Female",
       "race": "Soul",
       "status": "Alive",
       "marital_status": "Single"
@@ -297,9 +296,7 @@
       "role": "Supporting",
       "appearances": "Chapter 80"
     },
-    "relationships": {
-      "error": "unknown Relatives"
-    }
+    "relationships": {}
   },
   {
     "id": "12",
@@ -325,7 +322,7 @@
     "relationships": {
       "husband": "Renji Abarai",
       "daughter": "Ichika Abarai",
-      "sister": "Hisana Kuchiki (in-law)",
+      "sister-in-law": "Hisana Kuchiki",
       "adopt-brother": "Byakuya Kuchiki",
       "adopt-grandfather": "Ginrei Kuchiki"
     }
@@ -353,7 +350,8 @@
     },
     "relationships": {
       "brother": "Ichigo Kurosaki",
-      "sister": "Karin Korosaki (twin) - Orihime Inoue (in-law)",
+      "sister": "Karin Kurosaki",
+      "sister-in-law": "Orihime Inoue",
       "nephew": "Kazui Kurosaki",
       "father": "Isshin Kurosaki",
       "mother": "Masaki Kurosaki"
@@ -434,9 +432,7 @@
       "role": "Main",
       "appearances": "Chapter 1"
     },
-    "relationships": {
-      "error": "unknown Relatives"
-    }
+    "relationships": {}
   },
   {
     "id": "17",
@@ -459,9 +455,7 @@
       "role": "Main",
       "appearances": "Chapter 1"
     },
-    "relationships": {
-      "error": "unknown Relatives"
-    }
+    "relationships": {}
   },
   {
     "id": "18",
@@ -482,11 +476,9 @@
       "name": "To Aru Majutsu no Index",
       "quote": "By depending on others and letting them depend on you, people can exceed what they can do as individuals",
       "role": "Main",
-      "appearances": "Chapter "
+      "appearances": "Chapter 1"
     },
-    "relationships": {
-      "error": "unknown Relatives"
-    }
+    "relationships": {}
   },
   {
     "id": "19",
@@ -534,9 +526,7 @@
       "role": "Main",
       "appearances": "Chapter 79"
     },
-    "relationships": {
-      "error": "unknown Relatives"
-    }
+    "relationships": {}
   },
   {
     "id": "21",
@@ -1280,6 +1270,628 @@
       "son": "Trunks",
       "daughter": "Bulla",
       "descendant": "Bulma Leigh, Vegeta Jr., Youth"
+    }
+  },
+  {
+    "id": "49",
+    "character": {
+      "name": "Futaro Uesugi",
+      "personality": "According to Isanari Uesugi, Futaro used to be similar to his father as a kid with their wild personality and being bad at studying who lives a frugal lifestyle and prefers solitude. Someone comments that Futaro is always like that, trying to not associate with everyone. Ichika Nakano remarks that Futaro is direct and doesn't mince words.",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/0/07/Futaro_Uesugi_Anime.png/revision/latest/scale-to-width-down/1000?cb=20210518124756"
+    },
+    "biologicalInfo": {
+      "age": "22",
+      "birth": "April 15th 2000",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "If one of you can do something, all of you can do it. Ichika, Nino, Yotsuba, Itsuki, and you too, Miku. I believe the potential to score 100 points rests within all five of you!",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Isanari Uesugi",
+      "mother": "Mrs. Uesugi",
+      "sister": "Raiha Uesugi",
+      "sister-in-law": "Yotsuba Nakano, Ichika Nakano, Nino Nakano, Miku Nakano, Itsuki Nakano",
+      "father-in-law": "Maruo Nakano",
+      "mother-in-law": "Rena Nakano",
+      "wife": "Yotsuba Nakano"
+    }
+  },
+  {
+    "id": "50",
+    "character": {
+      "name": "Yotsuba Nakano",
+      "personality": "Yotsuba is an active, cheerful and easy going girl. She talks in a loud, spontaneous and sometimes absent-minded manner. She is the type of person who can't say no to people who need help and is mostly seen helping others; either directly and indirectly.",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/3/35/Yotsuba_Nakano_FULL_BODY.png/revision/latest/scale-to-width-down/1000?cb=20210518124701"
+    },
+    "biologicalInfo": {
+      "age": "22",
+      "birth": "May 5th 2000",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "I'll support you with everything I've got!",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "sister": "Ichika Nakano, Nino Nakano, Miku Nakano, Itsuki Nakano",
+      "mother": "Rena Nakano",
+      "biological-father": "Jinnosuke Mudo",
+      "step-father": "Maruo Nakano",
+      "husband": "Futaro Uesugi",
+      "sister-in-law": "Raiha Uesugi",
+      "father-in-law": "Isanari Uesugi",
+      "mother-in-law": "Mrs. Uesugi"
+    }
+  },
+  {
+    "id": "51",
+    "character": {
+      "name": "Ichika Nakano",
+      "personality": "Ichika acts as the eldest sister of her sisters, as she seems to have a calm and composed demeanor; making herself an approachable person. Futaro Uesugi noted that her smile is fake and encourage her to put away that kind of smile",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/b/b4/Ichika_Nakano_FULL_BODY.png/revision/latest/scale-to-width-down/1000?cb=20210518124147"
+    },
+    "biologicalInfo": {
+      "age": "22",
+      "birth": "May 5th 2000",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "She has always been awkward. So she probably just has trouble being honest about how she feels? I'm sure she's struggling by herself even now. I'll try doing what I can. But there are things that only Futaro-kun can do",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "sister": "Yotsuba Nakano, Nino Nakano, Miku Nakano, Itsuki Nakano",
+      "mother": "Rena Nakano",
+      "step-father": "Maruo Nakano",
+      "biological-father": "Jinnosuke Mudo",
+      "brother-in-law": "Futaro Uesugi",
+      "sister-in-law": "Raiha Uesugi"
+    }
+  },
+  {
+    "id": "52",
+    "character": {
+      "name": "Nino Nakano",
+      "personality": "Nino has an outgoing personality and is socially aware, resulting in her having many friends and is a social butterfly. She has a sharp tongue and talks bluntly when confronting others, even to her sisters. Her rebellious attitude makes her the least cooperative girl among the sisters, making her archetype resemble that of a \"tsundere\".",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/7/72/Nino_Nakano_ver1.png/revision/latest/scale-to-width-down/1000?cb=20250319101248"
+    },
+    "biologicalInfo": {
+      "age": "22",
+      "birth": "May 5th 2000",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "Don't teach me without my permission!",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "sister": "Yotsuba Nakano, Ichika Nakano, Miku Nakano, Itsuki Nakano",
+      "mother": "Rena Nakano",
+      "step-father": "Maruo Nakano",
+      "biological-father": "Jinnosuke Mudo",
+      "brother-in-law": "Futaro Uesugi",
+      "sister-in-law": "Raiha Uesugi"
+    }
+  },
+  {
+    "id": "53",
+    "character": {
+      "name": "Miku Nakano",
+      "personality": "Miku is a silent and reserved girl who has a pessimistic way of thinking and low confidence, even to the point of belittling herself. Futaro Uesugi notes that she doesn't have faith in herself. In contrary to her reserved self, she can talk in a straight forward manner and doesn't hesitate to confront others. She can also be slightly possessive, as she doesn't react well when Yotsuba kisses Futaro on the cheek to wipe some cream, and overall she gets pouty whenever another girl, especially one of her sisters, gets a little too close for comfort with Futaro.",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/3/33/Miku_Nakano_FULL_BODY.png/revision/latest?cb=20210518124646"
+    },
+    "biologicalInfo": {
+      "age": "22",
+      "birth": "May 5th 2000",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "Don't give up after failing just twice... We'll be able to do it next time. If Futaro's with us, we'll make it! Failure is the stepping stone to success, right?",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "sister": "Yotsuba Nakano, Ichika Nakano, Nino Nakano, Itsuki Nakano",
+      "mother": "Rena Nakano",
+      "step-father": "Maruo Nakano",
+      "biological-father": "Jinnosuke Mudo",
+      "brother-in-law": "Futaro Uesugi",
+      "sister-in-law": "Raiha Uesugi"
+    }
+  },
+  {
+    "id": "54",
+    "character": {
+      "name": "Itsuki Nakano",
+      "personality": "Itsuki is a serious and earnest girl who usually wakes up early unlike her sisters. She is well-mannered; never being late or missing class, and always speaks formally. In the Japanese script, she almost exclusively speaks with a keigo speech pattern. Nino, her older sister, comments that Itsuki is too straight-laced.",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/5/58/Itsuki_Nakano_FULL_BODY.png/revision/latest/scale-to-width-down/1000?cb=20210518124712"
+    },
+    "biologicalInfo": {
+      "age": "22",
+      "birth": "May 5th 2000",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "In the end, we can't know what he feels, what he thinks, unless we ask him personally.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "sister": "Yotsuba Nakano, Ichika Nakano, Nino Nakano, Miku Nakano",
+      "mother": "Rena Nakano",
+      "step-father": "Maruo Nakano",
+      "biological-father": "Jinnosuke Mudo",
+      "brother-in-law": "Futaro Uesugi",
+      "sister-in-law": "Raiha Uesugi"
+    }
+  },
+  {
+    "id": "55",
+    "character": {
+      "name": "Rena Nakano",
+      "personality": "Rena is known to be a very serious, unsociable, strict and stern woman, especially when it comes to teaching her students as she would often punish her students with iron-fist sanctions, but she was also very forgiving and for that (as well as her appearance), she was adored by her students that there was a student fan club dedicated to worship her.",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/e/ee/Rena_Nakano_Anime.jpg/revision/latest/scale-to-width-down/1000?cb=20210904170820"
+    },
+    "biologicalInfo": {
+      "age": "30",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Dead",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "Seeing you five living healthily, to me, is the greatest happiness I could ask for.",
+      "appearances": "Chapter 1",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "husband": "Maruo Nakano",
+      "daughter": "Yotsuba Nakano, Ichika Nakano, Nino Nakano, Miku Nakano, Itsuki Nakano",
+      "son-in-law": "Futaro Uesugi",
+      "ex-husband": "Jinnosuke Mudo"
+    }
+  },
+  {
+    "id": "56",
+    "character": {
+      "name": "Jinnosuke Mudo",
+      "personality": "As the newfound father of the quintuplets, much of Mudo's identity has yet to be revealed, but he seems to have ever regretted his decision of leaving his daughters too many hardships. Stating that he wants to \"atone\" for his sins.",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/5/51/495970.jpg/revision/latest?cb=20260304051418"
+    },
+    "biologicalInfo": {
+      "age": "40",
+      "birth": "unknown",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "divorced"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "If you're just following your mother's footsteps, I don't recommend it. Your distorted devotion will lead you to your destruction, Itsuki-chan. It's almost like a curse",
+      "appearances": "Chapter 109",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "ex-wife": "Rena Nakano",
+      "daughter": "Yotsuba Nakano, Ichika Nakano, Nino Nakano, Miku Nakano, Itsuki Nakano"
+    }
+  },
+  {
+    "id": "57",
+    "character": {
+      "name": "Raiha Uesugi",
+      "personality": "Raiha is a cheerful girl who is essentially the head of the family, despite her young age, since she's the one who takes care of financial matters and cooks for the family. Her mother's absence forces her to spent more time at household matters, leaving her to hold back a lot of things a child normally do. She cares a lot about her brother and concerned about his life, even when both of them have grown up significantly",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/8/84/Episode_Raiha_Uesugi.jpg/revision/latest?cb=20260302132046"
+    },
+    "biologicalInfo": {
+      "age": "12",
+      "birth": "February 14 2005",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "I'll treasure it for the rest of my life",
+      "appearances": "Chapter 1",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "father": "Isanari Uesugi",
+      "brother": "Futaro Uesugi",
+      "sister-in-law": "Yotsuba Nakano, Ichika Nakano, Nino Nakano, Miku Nakano, Itsuki Nakano"
+    }
+  },
+  {
+    "id": "58",
+    "character": {
+      "name": "Maruo Nakano",
+      "personality": "Maruo is characterized by his strict and no-nonsense demeanor where he is a disciplined and responsible person who takes his role as a father and provider seriously. Maruo is a workaholic, often putting in long hours at the office, and expects results from his daughters. He is often depicted as cold and distant, and his relationship with his daughters can be strained at times. However, it is revealed that he cares deeply for his daughters' well-being and only wants what is best for them, even if it means making difficult decisions. Maruo is not one to show his emotions easily, but his actions speak louder than his words, and he is willing to make personal sacrifices for his family's sake.",
+      "image": "https://static.wikia.nocookie.net/5toubun-no-hanayome/images/1/10/Maruo_Nakano_Anime.jpg/revision/latest?cb=20260304050905"
+    },
+    "biologicalInfo": {
+      "age": "40",
+      "birth": "unknown",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Gotobun no Hanayome",
+      "quote": "Uesugi-kun, you've really done it this time. However, I will not hand my daughters over to the likes of you",
+      "appearances": "Chapter 50",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "wife": "Rena Nakano",
+      "step-daughter": "Ichika Nakano, Nino Nakano, Miku Nakano, Yotsuba Nakano, Itsuki Nakano",
+      "son-in-law": "Futaro Uesugi"
+    }
+  },
+  {
+    "id": "59",
+    "character": {
+      "name": "Kaguya Shinomiya",
+      "personality": "Kaguya was a very cold and rational individual, but she slowly changed after joining the student council. During her earlier days in council, she considered Miyuki Shirogane as one she would be fine to be in a relationship with if, and only if, he confesses first, thus she constantly plays mind games in trying to get him to confess. Later in the series, her actions imply that she is starting to accept her feelings of liking Miyuki, but won't openly admit it.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/a/ab/KaguyaAnime.png/revision/latest?cb=20190209185412"
+    },
+    "biologicalInfo": {
+      "age": "18",
+      "birth": "January 1",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "I... I want you to stay by my side forever, and I want you to confess to me.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Gan'an Shinomiya",
+      "mother": "Nayotake Shimizu",
+      "brother": "Oko Shinomiya, Seiryū Shinomiya, Un'yo Shinomiya",
+      "husband": "Miyuki Shirogane",
+      "sister-in-law": "Kei Shirogane",
+      "father-in-law": "Papa Shirogane"
+    }
+  },
+  {
+    "id": "60",
+    "character": {
+      "name": "Papa Shirogane",
+      "personality": "Papa Shirogane has a personality that tends to tease and make fun of people while keeping on a straight face. Despite that, he has a strict criteria when it comes to judging Miyuki Shirogane. This is likely attributed to him not wanting his son to end up in a similar financial crisis to him, and his shame for relying partially on his son's part-time job to stay afloat.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/c/ca/Papa_Anime.png/revision/latest?cb=20200525045204"
+    },
+    "biologicalInfo": {
+      "age": "40",
+      "birth": "unknown",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "estranged"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "I've always been wise, it's just that nobody ever notices.",
+      "appearances": "Chapter 19",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "son": "Miyuki Shirogane",
+      "daughter-in-law": "Kaguya Shinomiya",
+      "daughter": "Kei Shirogane"
+    }
+  },
+  {
+    "id": "61",
+    "character": {
+      "name": "Ai Hayasaka",
+      "personality": "Despite her young age, Ai can quickly shift to different types of personalities to suit various kinds of situations and scenarios. She has four distinct personas which, aside from having a specific purpose, has its own unique background and upbringing.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/0/02/HayasakaAnime.png/revision/latest?cb=20190209190948"
+    },
+    "biologicalInfo": {
+      "age": "18",
+      "birth": "April 2nd",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "Did you know Kaguya-sama? You've always been so incredibly dear to me. It made me happy that you depended on me. It pained me to see you hurt. And I was so glad to see how much fun you were having after you joined the student council. So for me to have betrayed you for the last ten years...",
+      "appearances": "Chapter 3",
+      "role": "Main"
+    },
+    "relationships": {
+      "mother": "Nao Hayasaka",
+      "father": "Masato Hayasaka"
+    }
+  },
+  {
+    "id": "62",
+    "character": {
+      "name": "Kei Shirogane",
+      "personality": "Kei seems to share many of the same characteristics as her older brother, being a hard worker and unwaveringly kind and self-sacrificial. Being from a low-income family, she places a heavy emphasis on money and goes through great lengths to not spend much. To others outside her family, she comes off as calm and composed, though she is apparently good friends with Chika Fujiwara and her sisters. Her similarities with her brother extend so much to the point that she seems to have developed a nervous attitude towards Kaguya Shinomiya due to great admiration.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/8/80/Kei_Anime.png/revision/latest?cb=20200511025638"
+    },
+    "biologicalInfo": {
+      "age": "14",
+      "birth": "August 1",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "In reality, she wants to speak to you normally, but she's too embarrassed to do so. It happens all the time.",
+      "appearances": "Chapter 39",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "brother": "Miyuki Shirogane",
+      "father": "Papa Shirogane",
+      "sister-in-law": "Kaguya Shinomiya"
+    }
+  },
+  {
+    "id": "63",
+    "character": {
+      "name": "Chika Fujiwara",
+      "personality": "Chika is a bubbly, eccentric girl who almost always has a smile on her face. Always looking to have fun with her fellow student council members, she is often the one to come up with strange activities and ideas that entertain herself and the others. She is mostly oblivious to the atmosphere of the room, resulting in her being an unpredictable element that ruins many of Kaguya Shinomiya's and Miyuki Shirogane's schemes to make the other confess, and Ai Hayasaka as Chika is a threat to her tasks.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/d/d3/FujiwaraAnime.png/revision/latest?cb=20190209190348"
+    },
+    "biologicalInfo": {
+      "age": "17",
+      "birth": "March 3",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "I'm used to you being bad at stuff by now. That's how it always is, after all. It's more important that the wonderful things in your heart reach this friend of yours.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "sister": "Toyomi Fujiwara, Moeha Fujiwara",
+      "father": "Daichi Fujiwara",
+      "mother": "Maho Fujiwara"
+    }
+  },
+  {
+    "id": "64",
+    "character": {
+      "name": "Moeha Fujiwara",
+      "personality": "Moeha has the same sunny personality as her elder sister Chika Fujiwara. However, Moeha has a morbid fascination with people she likes, like wanting to corrupt Kei Shirogane by locking and torturing her in a dungeon, or having Kaguya Shinomiya as the number one person on the list of people she wants to eat. The author describes Moeha as \"kind of a psychopath\".",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/e/ec/Moeha_Anime.png/revision/latest?cb=20200507135636"
+    },
+    "biologicalInfo": {
+      "age": "14",
+      "birth": "June 26",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "I really can't deal with her. She says the scariest things...",
+      "appearances": "Chapter 39",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "sister": "Toyomi Fujiwara, Chika Fujiwara",
+      "father": "Daichi Fujiwara",
+      "mother": "Maho Fujiwara"
+    }
+  },
+  {
+    "id": "65",
+    "character": {
+      "name": "Toyomi Fujiwara",
+      "personality": "She is very seductive and does whatever she likes, even against her own parents wishes. Her highly seductive nature is revealed through multiple comments made during the series, Such as when she states that she finds Kei Shirogane to be the type of innocent girl she would like to see \"ruined.\" In this regard she is similar in the way that she often makes disturbing comments akin to that of her sister Moeha Fujiwara.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/8/8f/Toyomi_Fujiwara.png/revision/latest?cb=20200524082825"
+    },
+    "biologicalInfo": {
+      "age": "18+",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "unknown",
+      "appearances": "Chapter 39",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "sister": "Chika Fujiwara, Moeha Fujiwara",
+      "father": "Daichi Fujiwara",
+      "mother": "Maho Fujiwara"
+    }
+  },
+  {
+    "id": "66",
+    "character": {
+      "name": "Miko Iino",
+      "personality": "Miko is most notable for her strong and obstinate sense of justice and decency. She is convinced that the morality of Shuchi'in Academy has been declining, and thus wishes to impose heavy, though unreasonable, regulations on students. Because of her overbearing and borderline authoritarian attitude, she was generally disliked by the student body. Despite this, Miko’s determination never wavered, as she continued to confront those who she deemed were acting unfairly, even at the expense of her own reputation.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/b/b0/Miko_Anime.png/revision/latest?cb=20200208223129"
+    },
+    "biologicalInfo": {
+      "age": "17",
+      "birth": "May 5",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "in a relationship"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "…… Thanks, Ishigami. Everyone's smiling. I'm so happy!",
+      "appearances": "Chapter 65",
+      "role": "Main"
+    },
+    "relationships": {
+      "boy-friends": "Yu Ishigami"
+    }
+  },
+  {
+    "id": "67",
+    "character": {
+      "name": "Yu Ishigami",
+      "personality": "Yu is a reserved and somewhat gloomy student who would rarely show up to the student council meetings, preferring to do most of his work at home. He normally spends most of his time playing video games by himself, as he is generally be disliked by the other students due to an incident that occurred in his past.",
+      "image": "https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/e/e3/IshigamiAnime.png/revision/latest?cb=20190209190653"
+    },
+    "biologicalInfo": {
+      "age": "16",
+      "birth": "March 3rd",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "in a relationship"
+    },
+    "anime": {
+      "name": "Kaguya-sama wa Kokurasetai",
+      "quote": "I don't hate you. I just think… that I would only do that with someone I love who loves me back. That's why... I'm going to try my hardest to become someone that you can fall in love with.",
+      "appearances": "Chapter 11",
+      "role": "Main"
+    },
+    "relationships": {
+      "girl-friends": "Miko lino"
+    }
+  },
+  {
+    "id": "68",
+    "character": {
+      "name": "Marin Kitagawa",
+      "personality": "Marin is boisterous, extravagant and messy and quite clumsy. She is rather mature for her age. As a cosplayer and huge otaku, Marin is a big of fan of magical girl anime and adult video games. She strongly desires to cosplay as certain characters, seeing the notion of dressing up and becoming said characters as the ultimate form of love towards them. Marin's love for the characters she likes is so extreme that she won't cosplay as them if she feels as though she can't fit their appearance, not wanting to spoil their image.",
+      "image": "https://static.wikia.nocookie.net/sono-bisque-doll-wa-koi-wo-suru/images/8/8c/Marin_Kitagawa_cosplaying_as_Black_Lobelia.png/revision/latest/scale-to-width-down/1000?cb=20220320121235"
+    },
+    "biologicalInfo": {
+      "age": "23",
+      "birth": "March 5th, 2003",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Sono Bisque Doll wa Koi wo suru",
+      "quote": "When you feel things, you owe it to yourself to tell people.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "father": "Masumi Kitagawa",
+      "husband": "Wakana Gojo",
+      "daughter": "Nichika Gojo",
+      "grandfather-in-law": "Kaoru Gojo",
+      "cousin-in-law": "Miori Gojo",
+      "aunt-in-law": "Harumi",
+      "friend": "Nowa Sugaya, Daia Yahiro, Rune Yamauchi, Karen Otsuka, Seira Kasai, Kensei Morita, Shiki Kashiwagi, Takeru Koga, Kouki Murakami, Sajuna Inui, Shinju Inui, Chitose Amano, Suzuka Itou, Miyako Honda, Akira Ogata, Riho Aizawa, Hikaru Kikuchi, Manabu Hasegawa, Rinko Onoda, Rana Sasaki, Erika Mizuno, Hajime Usami"
+    }
+  },
+  {
+    "id": "69",
+    "character": {
+      "name": "Wakana Gojo",
+      "personality": "At the start of the series, Wakana was a withdrawn person in high school, having no friends and a secret love and admiration for hina dolls. This stems from his past where a girl angrily told him that boys shouldn’t like dolls and called him a freak, something that clearly affected him very deeply to the point where he closed himself off from everyone and lived his high school life as a recluse. Wakana notes Marin Kitagawa and how she has her own interests in anime and the like, but unlike him, is free to be completely open with them and has many friends. His solitary attitude makes him rather submissive with others, claiming that he doesn’t mind his classmates leaving him to do after class clean up, although Marin correctly pointed out that they were taking advantage of him.",
+      "image": "https://static.wikia.nocookie.net/sono-bisque-doll-wa-koi-wo-suru/images/a/a9/Wakana_Gojo.webp/revision/latest?cb=20260615140924"
+    },
+    "biologicalInfo": {
+      "age": "23",
+      "birth": "March 21st, 2003",
+      "gender": "Male",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "married"
+    },
+    "anime": {
+      "name": "Sono Bisque Doll wa Koi wo suru",
+      "quote": "I've only ever used the word \"pretty\" for very special things. It's sort of like I can't say it unless I really, truly feel it.",
+      "appearances": "Chapter 1",
+      "role": "Main"
+    },
+    "relationships": {
+      "grandfather": "Kaoru Gojo",
+      "cousin": "Miori Gojo",
+      "aunt": "Harumi",
+      "wife": "Marin Kitagawa",
+      "daughter": "Nichika Gojo",
+      "father-in-law": "Masumi Kitagawa",
+      "friend": "Nobara Aoyagi, Sajuna Inui, Shinju Inui, Akira Ogata, Takeru Koga, Kensei Morita, Shiki Kashiwagi, Kouki Murakami, Nowa Sugaya, Daia Yahiro, Rune Yamauchi, Seira Kasai, Karen Otsuka, Hajime Usami, Chitose Amano, Suzuka Itou, Miyako Honda"
+    }
+  },
+  {
+    "id": "70",
+    "character": {
+      "name": "Nichika Gojo",
+      "personality": "Seeing her attitude towards giving her grandfather a present, she seems to have inherited shy and nervous behaviors from her father. Even her mother punctualize this trait.",
+      "image": "https://static.wikia.nocookie.net/sono-bisque-doll-wa-koi-wo-suru/images/4/41/Nichika_Gojo_Manga_Infobox.png/revision/latest?cb=20260225040526"
+    },
+    "biologicalInfo": {
+      "age": "4",
+      "birth": "unknown",
+      "gender": "Female",
+      "race": "Human",
+      "status": "Alive",
+      "marital_status": "single"
+    },
+    "anime": {
+      "name": "Sono Bisque Doll wa Koi wo suru",
+      "quote": "unknown",
+      "appearances": "Chapter 115.5",
+      "role": "Supporting"
+    },
+    "relationships": {
+      "father": "Wakana Gojo",
+      "mother": "Marin Kitagawa",
+      "maternal-grandfather": "Masumi Kitagawa",
+      "aunt": "Harumi, Miori Gojo"
     }
   }
 ]
